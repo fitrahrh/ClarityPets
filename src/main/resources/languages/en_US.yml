@@ -1,0 +1,202 @@
+prefix: "<gray>[<aqua>ClarityPets</aqua>]</gray> "
+
+category:
+  combat: "Combat"
+  utility: "Utility"
+  support: "Support"
+
+mode:
+  passive: "Passive"
+  defensive: "Defensive"
+  aggressive: "Aggressive"
+  sentry: "Sentry"
+  pocket: "Pocket"
+
+mode_desc:
+  passive: "Follows peacefully, never attacks or engages in combat."
+  defensive: "Follows closely, actively defends against any enemy attacking owner or pet."
+  aggressive: "Proactively hunts and attacks hostile monsters nearby, aggressively defending owner."
+  sentry: "Guards current location, attacking any hostile mobs entering the perimeter."
+  pocket: "Inactive in storage."
+
+pet:
+  nametag_format: "<white><name></white> <gray>[Lv.<level>]</gray>"
+
+dialog:
+  main:
+    title: "<white>Pet Management</white>"
+    body: "<white>Active Pet: <active_name> (Level <active_level>)</white><newline><white>Status: <active_status></white><newline><white>Total Pets: <total_pets></white>"
+    none: "None"
+    status_stored: "Stored"
+    btn_storage: "<white>Pet Storage</white>"
+    btn_colosseum: "<white>Colosseum</white>"
+    btn_guide: "<white>Pet Guide</white>"
+    btn_skilltree: "<white>Skilltree & Skills</white>"
+    btn_backpack: "<white>Pet Backpack</white>"
+    btn_summon: "<green>Summon</green>"
+    btn_despawn: "<red>Despawn</red>"
+    btn_close: "<white>Close</white>"
+
+  storage:
+    title: "<white>Pet Storage</white>"
+    body: "<white>Page <page> of <total_pages> | Total Pets: <total_pets></white>"
+    btn_pet: "<white><name> Lv.<level></white>"
+    btn_prev: "<white>Previous Page</white>"
+    btn_next: "<white>Next Page</white>"
+    btn_back: "<white>Back</white>"
+
+  detail:
+    title: "<white>Pet Details</white>"
+    body: "<white>Name: <name></white><newline><white>Type: <type></white><newline><white>Category: <category></white><newline><white>Level: <level></white><newline><white>Experience: <exp>/<max_exp></white><newline><white>Health: <hp>/<max_hp></white><newline><white>Attack: <atk></white><newline><white>Defense: <def></white><newline><white>Speed: <spd></white><newline><newline><white>Skilltree: <skilltree></white><newline><white>Skill Points: <skill_points></white><newline><newline><white>Behavior: <mode></white><newline><white><mode_desc></white><newline><newline><white>Passive Skill: <passive_name></white><newline><white><passive_desc></white><newline><newline><white>Active Skill: <active_skill_name></white><newline><white><active_desc></white>"
+    btn_summon: "<green>Summon</green>"
+    btn_despawn: "<red>Despawn</red>"
+    btn_skilltree: "<white>Skilltree & Skills</white>"
+    btn_backpack: "<white>Pet Backpack</white>"
+    btn_mode: "<white>Change Mode</white>"
+    btn_treat: "<white>Feed Pet Treat (<daily_left> left)</white>"
+    btn_rename: "<white>Rename Pet</white>"
+    btn_guide: "<white>Pet Guide</white>"
+    btn_release: "<red>Release Pet</red>"
+    btn_back: "<white>Back</white>"
+
+  mode:
+    title: "<white>Select Behavior Mode</white>"
+    body: "<white>Current Mode: <current_mode></white><newline><white><current_mode_desc></white><newline><newline><white>Passive: Follows peacefully, never attacks.</white><newline><white>Defensive: Defends you from attackers.</white><newline><white>Aggressive: Hunts nearby monsters and defends you.</white><newline><white>Sentry: Guards current location.</white>"
+    btn_passive: "<white>Passive</white>"
+    btn_defensive: "<white>Defensive</white>"
+    btn_aggressive: "<white>Aggressive</white>"
+    btn_sentry: "<white>Sentry</white>"
+    btn_back: "<white>Back</white>"
+
+  guide:
+    title: "<white>Pet Guide</white>"
+    body: "<white>Welcome to the ClarityPets Guide.</white><newline><white>Select a category below to learn more about pet mechanics, leveling, and Colosseum duels.</white>"
+    btn_basics: "<white>Basics & Controls</white>"
+    btn_leveling: "<white>Leveling & Treats</white>"
+    btn_skills: "<white>Skills & Trees</white>"
+    btn_modes: "<white>Behavior Modes</white>"
+    btn_colosseum: "<white>Colosseum Arena</white>"
+    btn_back: "<white>Back</white>"
+    basics_title: "<white>Guide: Basics</white>"
+    basics_body: "<white>Pet Basics:</white><newline><white>You can collect multiple pets in your storage, but only 1 active pet may be summoned at a time.</white><newline><newline><white>Summoning & Storage:</white><newline><white>Use the Pet Storage menu to inspect your pets and summon your companion into the world. You can recall your pet to storage at any time.</white><newline><newline><white>Customization:</white><newline><white>You can rename your pet at any time through the Pet Details menu.</white>"
+    leveling_title: "<white>Guide: Leveling</white>"
+    leveling_body: "<white>Earning Experience:</white><newline><white>Your summoned pet earns EXP naturally through survival activities:</white><newline><white>- Monster hunting: Defeating hostile monsters grants EXP.</white><newline><white>- Mining: Mining ores grants bonus EXP.</white><newline><white>- Foraging: Chopping logs grants bonus EXP.</white><newline><white>- Fishing: Catching fish grants bonus EXP.</white><newline><newline><white>Daily Treats:</white><newline><white>Feed your pet daily treats in the Pet Details menu for an instant EXP boost. Daily treats reset each day.</white>"
+    skills_title: "<white>Guide: Skills & Skilltrees</white>"
+    skills_body: "<white>Skilltrees & Trainable Skills:</white><newline><white>Each pet belongs to an Archetype: Juggernaut (Combat), Guardian (Support), or Scavenger (Utility).</white><newline><newline><white>Earning Skill Points:</white><newline><white>Your pet earns 1 Skill Point every time it levels up. Spend points to upgrade abilities up to Tier 5.</white><newline><newline><white>Archetypes & Skills:</white><newline><white>- Juggernaut: Damage, Life, Armor, Thorns, Bleed, Fire, Knockback, Earthquake Stomp.</white><newline><white>- Guardian: Life, Armor, Heal, Beacon, Aegis Shield, Provocation, Slow, Poison, Wither, Emergency Potion.</white><newline><white>- Scavenger: Pack Mule Backpack, Item Fetcher Pickup, Swift Trot Sprint, Ore Mining, Timber Lumberjack, Angler Fishing, Shadow Veil Camouflage.</white><newline><newline><white>Switching Trees:</white><newline><white>You can freely switch skilltree archetypes at any time. Switching automatically refunds all invested points.</white>"
+    modes_title: "<white>Guide: Behavior Modes</white>"
+    modes_body: "<white>Behavior Modes:</white><newline><white>You can adjust how your pet acts in the world at any time:</white><newline><newline><white>Passive Mode:</white><newline><white>Your pet follows you peacefully and will never attack or engage in combat.</white><newline><newline><white>Defensive Mode:</white><newline><white>Your pet follows you and will counterattack any creature that harms you or itself.</white><newline><newline><white>Sentry Mode:</white><newline><white>Your pet guards its current location, attacking any hostile mobs entering the area and returning to post.</white>"
+    colosseum_title: "<white>Guide: Colosseum</white>"
+    colosseum_body: "<white>Automated Colosseum Duels:</white><newline><white>Challenge other players to an automated pet duel in the arena. During duels, pets battle independently based on stats, skills, and tactics.</white><newline><newline><white>Category Advantages:</white><newline><white>- Combat pets deal +20 percent damage to Utility pets.</white><newline><white>- Utility pets deal +20 percent damage to Support pets.</white><newline><white>- Support pets deal +20 percent damage to Combat pets.</white><newline><newline><white>Tactical Stances:</white><newline><white>- Aggressive: +15 percent Attack, -10 percent Defense.</white><newline><white>- Defensive: +20 percent Defense, higher counter rate.</white><newline><white>- Balanced: Standard balanced combat attributes.</white>"
+
+  rename:
+    title: "<white>Rename Pet</white>"
+    body: "<white>Enter a new name for your pet below.</white>"
+    input_label: "<white>Pet Name</white>"
+    btn_confirm: "<green>Confirm</green>"
+    btn_cancel: "<red>Cancel</red>"
+
+  release:
+    title: "<white>Confirm Release</white>"
+    body: "<white>Are you sure you want to release <name>? This action cannot be undone.</white>"
+    btn_confirm: "<red>Confirm Release</red>"
+    btn_cancel: "<white>Cancel</white>"
+
+  colosseum:
+    title: "<white>Colosseum Arena</white>"
+    body: "<white>Duel Record: <wins> Wins, <losses> Losses, <draws> Draws</white><newline><white>Win Streak: <streak></white><newline><white>Arena Rating: <rating></white><newline><white>Tactical Stance: <stance></white>"
+    btn_stance: "<white>Change Stance</white>"
+    btn_challenge: "<white>Challenge Player</white>"
+    btn_back: "<white>Back</white>"
+
+  stance:
+    title: "<white>Select Tactical Stance</white>"
+    body: "<white>Aggressive: +15 percent Attack, -10 percent Defense</white><newline><white>Defensive: +20 percent Defense, higher counter rate</white><newline><white>Balanced: Standard balanced combat stats</white>"
+    btn_aggressive: "<white>Aggressive</white>"
+    btn_defensive: "<white>Defensive</white>"
+    btn_balanced: "<white>Balanced</white>"
+    btn_back: "<white>Back</white>"
+
+  challenge:
+    title: "<white>Select Opponent</white>"
+    body: "<white>Select an online player to challenge to an automated Colosseum duel.</white>"
+    btn_player: "<white><player> (<pet_name> Lv.<pet_level>)</white>"
+    btn_back: "<white>Back</white>"
+
+  skilltree:
+    title: "<white>Skilltree - <name></white>"
+    body: "<white>Archetype: <tree></white><newline><white><tree_desc></white><newline><newline><white>Available Skill Points: <points></white>"
+    btn_skill: "<white><skill> [Tier <tier>/<max>]</white>"
+    btn_switch: "<white>Switch Skilltree</white>"
+    btn_reset: "<red>Reset Points</red>"
+    btn_back: "<white>Back</white>"
+
+  skill_detail:
+    title: "<white>Skill: <skill></white>"
+    body: "<white>Category: <category></white><newline><white><desc></white><newline><newline><white>Current Tier: <tier>/<max></white><newline><white>Current: <current_effect></white><newline><newline><white>Next Tier: <next_effect></white><newline><newline><white>Available Skill Points: <points></white>"
+    maxed: "Maximum Tier Reached"
+    btn_upgrade: "<green>Upgrade (1 Point)</green>"
+    btn_back: "<white>Back</white>"
+
+  switch_tree:
+    title: "<white>Switch Skilltree</white>"
+    body: "<white>Current Archetype: <current_tree></white><newline><newline><white>Switching archetypes will refund all spent skill points and unlock a new skill set.</white>"
+    btn_tree: "<white><tree></white>"
+    btn_back: "<white>Back</white>"
+
+  reset_points:
+    title: "<white>Reset Skill Points</white>"
+    body: "<white>Are you sure you want to refund all spent skill points? All learned skills will be reset to Tier 0.</white>"
+    btn_confirm: "<red>Reset All Points</red>"
+    btn_cancel: "<white>Cancel</white>"
+
+message:
+  player_only: "<prefix><red>This command can only be executed by players.</red>"
+  no_permission: "<prefix><red>You do not have permission to execute this command.</red>"
+  player_not_found: "<prefix><red>Target player is not online.</red>"
+  summon_success: "<prefix><green>Summoned your pet <white><name></white> (Level <level>)!</green>"
+  despawn_success: "<prefix><gray>Your pet <white><name></white> has been recalled to storage.</gray>"
+  summon_usage: "<prefix><yellow>Usage: /pet summon <pet_type></yellow>"
+  invalid_pet_type: "<prefix><red>Invalid pet type specified.</red>"
+  not_unlocked: "<prefix><red>You do not own the pet '<pet>'.</red>"
+  already_unlocked: "<prefix><yellow>Target player already owns '<pet>'.</yellow>"
+  mode_changed: "<prefix><green>Pet behavior mode changed to <white><mode></white>.</green>"
+  invalid_name: "<prefix><red>Invalid pet name. Must be 1 to 24 characters long.</red>"
+  rename_success: "<prefix><green>Successfully renamed pet to <white><name></white>!</green>"
+  release_success: "<prefix><gray>Pet <white><name></white> has been released.</gray>"
+  treat_daily_limit: "<prefix><red>Daily treat limit reached (<max>/<max>). Come back tomorrow!</red>"
+  treat_success: "<prefix><green>Fed <white><name></white>! +<exp> EXP. (<left> treats left today)</green>"
+  level_up: "<prefix><green>Level Up!</green> <white><name></white> is now <yellow>Level <level></yellow>!"
+  no_active_pet: "<prefix><red>You need an active summoned pet to do this.</red>"
+  backpack_locked: "<prefix><red>Your pet has not unlocked the Pack Mule (Backpack) skill yet.</red>"
+  no_skill_points: "<prefix><red>You do not have enough skill points.</red>"
+  skilltree_switched: "<prefix><green>Skilltree switched to <white><tree></white>! All skill points refunded.</green>"
+  points_reset: "<prefix><green>All pet skill points have been reset and refunded!</green>"
+  invalid_points: "<prefix><red>Invalid points specified.</red>"
+  admin_addpoints_usage: "<prefix><yellow>Usage: /petadmin addpoints <player> <pet_type> <points></yellow>"
+  admin_addpoints_success: "<prefix><green>Added <white><points></white> skill points to <white><player></white>'s <white><pet></white>!</green>"
+  admin_resetpoints_usage: "<prefix><yellow>Usage: /petadmin resetpoints <player> <pet_type></yellow>"
+  admin_resetpoints_success: "<prefix><green>Reset skill points for <white><player></white>'s <white><pet></white>!</green>"
+  duel_target_no_pet: "<prefix><red><target> does not have an active summoned pet.</red>"
+  duel_arena_busy: "<prefix><red>The Colosseum arena is currently occupied by another duel.</red>"
+  duel_arena_not_configured: "<prefix><red>The Colosseum arena has not been configured by an administrator yet.</red>"
+  duel_challenge_sent: "<prefix><green>Sent Colosseum duel challenge to <white><target></white>!</green>"
+  duel_challenge_received: "<prefix><yellow><challenger></yellow> challenged you to a Colosseum duel! Type <aqua>/pet duel accept <challenger></aqua> to accept."
+  duel_challenge_declined: "<prefix><gray><target> declined your duel challenge.</gray>"
+  duel_accept_usage: "<prefix><yellow>Usage: /pet duel accept <player></yellow>"
+  duel_start: "<prefix><gold>Colosseum Duel Started!</gold> <white><opponent></white> (<pet2>) vs You (<pet1>)!"
+  duel_draw: "<prefix><yellow>Colosseum Match finished in a DRAW!</yellow>"
+  duel_victory: "<prefix><green>Colosseum Match Result:</green> <gold><winner></gold> defeated <gray><loser></gray>!"
+  admin_help: "<white>=== ClarityPets Admin Commands ===</white><newline><yellow>/petadmin give <player> <pet_type> [level]</yellow><newline><yellow>/petadmin remove <player> <pet_type></yellow><newline><yellow>/petadmin setlevel <player> <pet_type> <level></yellow><newline><yellow>/petadmin resetdailytreats <player></yellow><newline><yellow>/petadmin setarena <pos1|pos2|spawn1|spawn2></yellow><newline><yellow>/petadmin reload</yellow>"
+  admin_reload_success: "<prefix><green>Configuration and language files reloaded successfully.</green>"
+  admin_setarena_usage: "<prefix><yellow>Usage: /petadmin setarena <pos1|pos2|spawn1|spawn2></yellow>"
+  admin_arena_set: "<prefix><green>Successfully set Colosseum arena point: <white><point></white>!</green>"
+  admin_give_usage: "<prefix><yellow>Usage: /petadmin give <player> <pet_type> [level]</yellow>"
+  admin_give_success: "<prefix><green>Gave <white><pet></white> (Level <level>) to <white><player></white>!</green>"
+  admin_given_notice: "<prefix><green>You received pet <white><pet></white> (Level <level>) from an admin!</green>"
+  admin_remove_usage: "<prefix><yellow>Usage: /petadmin remove <player> <pet_type></yellow>"
+  admin_remove_success: "<prefix><green>Removed pet <white><pet></white> from <white><player></white>!</green>"
+  admin_setlevel_usage: "<prefix><yellow>Usage: /petadmin setlevel <player> <pet_type> <level></yellow>"
+  invalid_level: "<prefix><red>Invalid level specified.</red>"
+  admin_setlevel_success: "<prefix><green>Set pet <white><pet></white> level of <white><player></white> to <white><level></white>!</green>"
+  admin_reset_treats_usage: "<prefix><yellow>Usage: /petadmin resetdailytreats <player></yellow>"
+  admin_reset_treats_success: "<prefix><green>Reset daily pet treats for <white><player></white>!</green>"

@@ -1,0 +1,52 @@
+# ==========================================
+# ClarityPets - .gitignore
+# ==========================================
+
+# Gradle build artifacts & cache
+.gradle/
+build/
+
+# Compiled Java bytecode
+*.class
+bin/
+out/
+
+# Gradle wrapper jar must always be committed
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local compilation libraries (ClarityLangCore-1.0.0.jar is required)
+libs/*
+!libs/*.jar
+
+# IDE specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+.settings/
+.classpath
+.project
+.vscode/*
+!.vscode/settings.json
+
+# Local scripts & runners
+powershell.bat
+powershell.cmd
+*.log
+run/
+
+# External references & temp folders
+MyPet-4/
+plugin-luar/
+TargetTracker-master/
+source-code-referens-*/
+
+# Operating system files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+desktop.ini
+.DS_Store
+.AppleDouble
+.LSOverride

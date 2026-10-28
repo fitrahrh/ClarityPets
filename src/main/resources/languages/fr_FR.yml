@@ -1,0 +1,199 @@
+prefix: "<gray>[<aqua>ClarityPets</aqua>]</gray> "
+
+category:
+  combat: "Combat"
+  utility: "Utilitaire"
+  support: "Soutien"
+
+mode:
+  passive: "Passif"
+  defensive: "Defensif"
+  sentry: "Sentinelle"
+  pocket: "Range"
+
+mode_desc:
+  passive: "Suit paisiblement son maitre et n attaque aucune cible."
+  defensive: "Suit fidelement et riposte contre tout ennemi qui vous attaque."
+  sentry: "Garde sa position actuelle et repousse les monstres hostiles."
+  pocket: "Inactif dans le stockage."
+
+pet:
+  nametag_format: "<white><name></white> <gray>[Niv.<level>]</gray>"
+
+dialog:
+  main:
+    title: "<white>Gestion des Familiers</white>"
+    body: "<white>Familier Actif: <active_name> (Niveau <active_level>)</white><newline><white>Statut: <active_status></white><newline><white>Total de Familiers: <total_pets></white>"
+    none: "Aucun"
+    status_stored: "Range"
+    btn_storage: "<white>Stockage</white>"
+    btn_colosseum: "<white>Colisee</white>"
+    btn_guide: "<white>Guide des Familiers</white>"
+    btn_skilltree: "<white>Arbre de Competences</white>"
+    btn_backpack: "<white>Sac du Familier</white>"
+    btn_summon: "<green>Invoquer</green>"
+    btn_despawn: "<red>Renvoyer</red>"
+    btn_close: "<white>Fermer</white>"
+
+  storage:
+    title: "<white>Stockage des Familiers</white>"
+    body: "<white>Page <page> sur <total_pages> | Total de Familiers: <total_pets></white>"
+    btn_pet: "<white><name> Niv.<level></white>"
+    btn_prev: "<white>Page Precedente</white>"
+    btn_next: "<white>Page Suivante</white>"
+    btn_back: "<white>Retour</white>"
+
+  detail:
+    title: "<white>Details du Familier</white>"
+    body: "<white>Nom: <name></white><newline><white>Type: <type></white><newline><white>Categorie: <category></white><newline><white>Niveau: <level></white><newline><white>Experience: <exp>/<max_exp></white><newline><white>Sante: <hp>/<max_hp></white><newline><white>Attaque: <atk></white><newline><white>Defense: <def></white><newline><white>Vitesse: <spd></white><newline><newline><white>Arbre: <skilltree></white><newline><white>Points de Competence: <skill_points></white><newline><newline><white>Comportement: <mode></white><newline><white><mode_desc></white><newline><newline><white>Competence Passive: <passive_name></white><newline><white><passive_desc></white><newline><newline><white>Competence Active: <active_skill_name></white><newline><white><active_desc></white>"
+    btn_summon: "<green>Invoquer</green>"
+    btn_despawn: "<red>Renvoyer</red>"
+    btn_skilltree: "<white>Arbre de Competences</white>"
+    btn_backpack: "<white>Sac du Familier</white>"
+    btn_mode: "<white>Changer de Mode</white>"
+    btn_treat: "<white>Donner Friandise (<daily_left> restantes)</white>"
+    btn_rename: "<white>Renommer</white>"
+    btn_guide: "<white>Guide des Familiers</white>"
+    btn_release: "<red>Liberer</red>"
+    btn_back: "<white>Retour</white>"
+
+  mode:
+    title: "<white>Selectionner le Mode</white>"
+    body: "<white>Mode Actuel: <current_mode></white><newline><white><current_mode_desc></white><newline><newline><white>Passif: Suit paisiblement, n attaque pas.</white><newline><white>Defensif: Vous protege des agresseurs.</white><newline><white>Sentinelle: Garde la position actuelle.</white>"
+    btn_passive: "<white>Passif</white>"
+    btn_defensive: "<white>Defensif</white>"
+    btn_sentry: "<white>Sentinelle</white>"
+    btn_back: "<white>Retour</white>"
+
+  guide:
+    title: "<white>Guide des Familiers</white>"
+    body: "<white>Bienvenue dans le Guide ClarityPets.</white><newline><white>Selectionnez une rubrique ci-dessous pour decouvrir les mecaniques, l entrainement et le Colisee.</white>"
+    btn_basics: "<white>Bases & Commandes</white>"
+    btn_leveling: "<white>Niveaux & Friandises</white>"
+    btn_skills: "<white>Competences & Arbres</white>"
+    btn_modes: "<white>Modes de Comportement</white>"
+    btn_colosseum: "<white>Arene du Colisee</white>"
+    btn_back: "<white>Retour</white>"
+    basics_title: "<white>Guide: Bases</white>"
+    basics_body: "<white>Principes de base:</white><newline><white>Vous pouvez posseder plusieurs familiers, mais 1 seul peut etre invoque a la fois.</white><newline><newline><white>Invocation & Stockage:</white><newline><white>Utilisez le stockage pour appeler votre familier ou le renvoyer a tout moment.</white><newline><newline><white>Personnalisation:</white><newline><white>Renommez votre compagnon depuis le menu des details.</white>"
+    leveling_title: "<white>Guide: Niveaux</white>"
+    leveling_body: "<white>Gain d experience:</white><newline><white>Votre compagnon gagne de l EXP via vos activites de survie:</white><newline><white>- Chasse aux monstres: Vaincre des monstres donne de l EXP.</white><newline><white>- Minage: Miner des minerais donne de l EXP.</white><newline><white>- Bucheron: Couper des arbres donne de l EXP.</white><newline><white>- Peche: Pecher donne de l EXP.</white><newline><newline><white>Friandises Quotidiennes:</white><newline><white>Donnez des friandises quotidiennes pour un boost instantane d EXP.</white>"
+    skills_title: "<white>Guide: Competences</white>"
+    skills_body: "<white>Arbres de Competences et Entrainement:</white><newline><white>Chaque familier appartient a un Archetype: Juggernaut (Combat), Guardian (Soutien) ou Scavenger (Utilitaire).</white><newline><newline><white>Points de Competence:</white><newline><white>Votre familier gagne 1 Point a chaque niveau franchi. Ameliorez les competences jusqu au Rang 5.</white><newline><newline><white>Changement d Arbre:</white><newline><white>Vous pouvez changer d archetype a tout moment. Tous les points investis sont automatiquement rembourses.</white>"
+    modes_title: "<white>Guide: Comportement</white>"
+    modes_body: "<white>Modes de Comportement:</white><newline><white>Ajustez les actions de votre familier a tout moment:</white><newline><newline><white>Mode Passif:</white><newline><white>Votre compagnon vous suit tranquillement sans attaquer.</white><newline><newline><white>Mode Defensif:</white><newline><white>Votre compagnon riposte contre toute entite qui vous attaque.</white><newline><newline><white>Mode Sentinelle:</white><newline><white>Votre compagnon garde le secteur et repousse les intrus.</white>"
+    colosseum_title: "<white>Guide: Colisee</white>"
+    colosseum_body: "<white>Duels Automatiques du Colisee:</white><newline><white>Defiez d autres joueurs dans l arene. Les familiers combattent automatiquement.</white><newline><newline><white>Avantages de Categorie:</white><newline><white>- Combat inflige +20 pour cent de degats a Utilitaire.</white><newline><white>- Utilitaire inflige +20 pour cent de degats a Soutien.</white><newline><white>- Soutien inflige +20 pour cent de degats a Combat.</white><newline><newline><white>Postures Tactiques:</white><newline><white>- Offensive: +15 pour cent d Attaque, -10 pour cent de Defense.</white><newline><white>- Defensive: +20 pour cent de Defense, meilleur taux de riposte.</white><newline><white>- Equilibree: Statistiques de combat equilibrees.</white>"
+
+  rename:
+    title: "<white>Renommer le Familier</white>"
+    body: "<white>Entrez un nouveau nom pour votre familier ci-dessous.</white>"
+    input_label: "<white>Nom du Familier</white>"
+    btn_confirm: "<green>Confirmer</green>"
+    btn_cancel: "<red>Annuler</red>"
+
+  release:
+    title: "<white>Confirmer la Liberation</white>"
+    body: "<white>Etes-vous sur de vouloir liberer <name> ? Cette action est irreversible.</white>"
+    btn_confirm: "<red>Confirmer</red>"
+    btn_cancel: "<white>Annuler</white>"
+
+  colosseum:
+    title: "<white>Arene du Colisee</white>"
+    body: "<white>Historique: <wins> Victoires, <losses> Defaites, <draws> Nuls</white><newline><white>Serie: <streak></white><newline><white>Classement: <rating></white><newline><white>Posture Tactique: <stance></white>"
+    btn_stance: "<white>Changer de Posture</white>"
+    btn_challenge: "<white>Defier un Joueur</white>"
+    btn_back: "<white>Retour</white>"
+
+  stance:
+    title: "<white>Selectionner la Posture</white>"
+    body: "<white>Agressif: +15 pour cent Attaque, -10 pour cent Defense</white><newline><white>Defensif: +20 pour cent Defense, taux de riposte accru</white><newline><white>Equilibre: Statistiques de combat equilibrees normales</white>"
+    btn_aggressive: "<white>Agressif</white>"
+    btn_defensive: "<white>Defensif</white>"
+    btn_balanced: "<white>Equilibre</white>"
+    btn_back: "<white>Retour</white>"
+
+  challenge:
+    title: "<white>Selectionner un Adversaire</white>"
+    body: "<white>Selectionnez un joueur en ligne a defier dans un duel automatique au Colisee.</white>"
+    btn_player: "<white><player> (<pet_name> Niv.<pet_level>)</white>"
+    btn_back: "<white>Retour</white>"
+
+  skilltree:
+    title: "<white>Arbre de Competences - <name></white>"
+    body: "<white>Archetype: <tree></white><newline><white><tree_desc></white><newline><newline><white>Points de Competence: <points></white>"
+    btn_skill: "<white><skill> [Rang <tier>/<max>]</white>"
+    btn_switch: "<white>Changer d Arbre</white>"
+    btn_reset: "<red>Reinitialiser</red>"
+    btn_back: "<white>Retour</white>"
+
+  skill_detail:
+    title: "<white>Competence: <skill></white>"
+    body: "<white>Categorie: <category></white><newline><white><desc></white><newline><newline><white>Rang Actuel: <tier>/<max></white><newline><white>Effet Actuel: <current_effect></white><newline><newline><white>Rang Suivant: <next_effect></white><newline><newline><white>Points Disponibles: <points></white>"
+    maxed: "Rang Maximal Atteint"
+    btn_upgrade: "<green>Ameliorer (1 Point)</green>"
+    btn_back: "<white>Retour</white>"
+
+  switch_tree:
+    title: "<white>Changer d Arbre de Competences</white>"
+    body: "<white>Archetype Actuel: <current_tree></white><newline><newline><white>Changer d archetype remboursera tous les points investis et debloquera un nouvel ensemble de competences.</white>"
+    btn_tree: "<white><tree></white>"
+    btn_back: "<white>Retour</white>"
+
+  reset_points:
+    title: "<white>Reinitialiser les Points</white>"
+    body: "<white>Etes-vous sur de vouloir reinitialiser vos points de competence ? Toutes les aptitudes repasseront au Rang 0.</white>"
+    btn_confirm: "<red>Reinitialiser Tous les Points</red>"
+    btn_cancel: "<white>Annuler</white>"
+
+message:
+  player_only: "<prefix><red>Cette commande ne peut etre executee que par des joueurs.</red>"
+  no_permission: "<prefix><red>Vous n avez pas la permission d executer cette commande.</red>"
+  player_not_found: "<prefix><red>Le joueur cible n est pas en ligne.</red>"
+  summon_success: "<prefix><green>Votre familier <white><name></white> (Niveau <level>) a ete invoque !</green>"
+  despawn_success: "<prefix><gray>Votre familier <white><name></white> a ete renvoye au stockage.</gray>"
+  summon_usage: "<prefix><yellow>Utilisation: /pet summon <type_familier></yellow>"
+  invalid_pet_type: "<prefix><red>Type de familier invalide.</red>"
+  not_unlocked: "<prefix><red>Vous ne possedez pas le familier '<pet>'.</red>"
+  already_unlocked: "<prefix><yellow>Le joueur cible possede deja '<pet>'.</yellow>"
+  mode_changed: "<prefix><green>Mode de comportement change pour <white><mode></white>.</green>"
+  invalid_name: "<prefix><red>Nom invalide. Doit comporter entre 1 et 24 caracteres.</red>"
+  rename_success: "<prefix><green>Familier renomme avec succes en <white><name></white> !</green>"
+  release_success: "<prefix><gray>Le familier <white><name></white> a ete libere.</gray>"
+  treat_daily_limit: "<prefix><red>Limite quotidienne atteinte (<max>/<max>). Revenez demain !</red>"
+  treat_success: "<prefix><green><white><name></white> nourri ! +<exp> EXP. (<left> restantes aujourd hui)</green>"
+  level_up: "<prefix><green>Montee de Niveau !</green> <white><name></white> est maintenant <yellow>Niveau <level></yellow> !"
+  no_active_pet: "<prefix><red>Vous devez avoir un familier actif invoque pour faire cela.</red>"
+  backpack_locked: "<prefix><red>Votre familier n a pas encore debloque la competence de Sac.</red>"
+  no_skill_points: "<prefix><red>Vous n avez pas assez de points de competence.</red>"
+  skilltree_switched: "<prefix><green>Arbre change pour <white><tree></white> ! Tous les points ont ete rembourses.</green>"
+  points_reset: "<prefix><green>Tous les points de competence du familier ont ete reinitialises et rembourses !</green>"
+  invalid_points: "<prefix><red>Nombre de points invalide.</red>"
+  admin_addpoints_usage: "<prefix><yellow>Utilisation: /petadmin addpoints <joueur> <type_familier> <points></yellow>"
+  admin_addpoints_success: "<prefix><green>Ajoute <white><points></white> points de competence a <white><pet></white> de <white><player></white> !</green>"
+  admin_resetpoints_usage: "<prefix><yellow>Utilisation: /petadmin resetpoints <joueur> <type_familier></yellow>"
+  admin_resetpoints_success: "<prefix><green>Points de competence reinitialises pour <white><pet></white> de <white><player></white> !</green>"
+  duel_target_no_pet: "<prefix><red><target> n a pas de familier actif invoque.</red>"
+  duel_arena_busy: "<prefix><red>L arene du Colisee est actuellement occupee.</red>"
+  duel_arena_not_configured: "<prefix><red>L arene du Colisee n a pas encore ete configuree.</red>"
+  duel_challenge_sent: "<prefix><green>Defi de duel envoye a <white><target></white> !</green>"
+  duel_challenge_received: "<prefix><yellow><challenger></yellow> vous defie au Colisee ! Tapez <aqua>/pet duel accept <challenger></aqua> pour accepter."
+  duel_challenge_declined: "<prefix><gray><target> a decline votre defi.</gray>"
+  duel_accept_usage: "<prefix><yellow>Utilisation: /pet duel accept <joueur></yellow>"
+  duel_start: "<prefix><gold>Duel du Colisee Commence !</gold> <white><opponent></white> (<pet2>) vs Vous (<pet1>) !"
+  duel_draw: "<prefix><yellow>Le duel du Colisee se termine par un MATCH NUL !</yellow>"
+  duel_victory: "<prefix><green>Resultat du Colisee :</green> <gold><winner></gold> a vaincu <gray><loser></gray> !"
+  admin_help: "<white>=== Commandes Admin ClarityPets ===</white><newline><yellow>/petadmin give <joueur> <type> [niveau]</yellow><newline><yellow>/petadmin remove <joueur> <type></yellow><newline><yellow>/petadmin setlevel <joueur> <type> <niveau></yellow><newline><yellow>/petadmin resetdailytreats <joueur></yellow><newline><yellow>/petadmin setarena <pos1|pos2|spawn1|spawn2></yellow><newline><yellow>/petadmin reload</yellow>"
+  admin_reload_success: "<prefix><green>Fichiers de configuration et de langue recharges.</green>"
+  admin_setarena_usage: "<prefix><yellow>Utilisation: /petadmin setarena <pos1|pos2|spawn1|spawn2></yellow>"
+  admin_arena_set: "<prefix><green>Point d arene du Colisee defini : <white><point></white> !</green>"
+  admin_give_usage: "<prefix><yellow>Utilisation: /petadmin give <joueur> <type> [niveau]</yellow>"
+  admin_give_success: "<prefix><green>Familier <white><pet></white> (Niveau <level>) donne a <white><player></white> !</green>"
+  admin_given_notice: "<prefix><green>Vous avez recu le familier <white><pet></white> (Niveau <level>) d un admin !</green>"
+  admin_remove_usage: "<prefix><yellow>Utilisation: /petadmin remove <joueur> <type></yellow>"
+  admin_remove_success: "<prefix><green>Familier <white><pet></white> retire de <white><player></white> !</green>"
+  admin_setlevel_usage: "<prefix><yellow>Utilisation: /petadmin setlevel <joueur> <type> <niveau></yellow>"
+  invalid_level: "<prefix><red>Niveau specifie invalide.</red>"
+  admin_setlevel_success: "<prefix><green>Niveau de <white><pet></white> de <white><player></white> regle a <white><level></white> !</green>"
+  admin_reset_treats_usage: "<prefix><yellow>Utilisation: /petadmin resetdailytreats <joueur></yellow>"
+  admin_reset_treats_success: "<prefix><green>Friandises quotidiennes reinitialisees pour <white><player></white> !</green>"

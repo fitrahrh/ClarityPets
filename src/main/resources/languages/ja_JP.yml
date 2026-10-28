@@ -1,0 +1,199 @@
+prefix: "<gray>[<aqua>ClarityPets</aqua>]</gray> "
+
+category:
+  combat: "戦闘"
+  utility: "ユーティリティ"
+  support: "支援"
+
+mode:
+  passive: "パッシブ"
+  defensive: "防衛"
+  sentry: "歩哨"
+  pocket: "収納済み"
+
+mode_desc:
+  passive: "穏やかに追従し、いかなる対象も攻撃しません。"
+  defensive: "近くに付き従い、飼い主や自身を攻撃した敵に対抗します。"
+  sentry: "現在の位置を警備し、範囲内に侵入した敵性モブを迎撃します。"
+  pocket: "保管庫に収納中。"
+
+pet:
+  nametag_format: "<white><name></white> <gray>[Lv.<level>]</gray>"
+
+dialog:
+  main:
+    title: "<white>ペット管理</white>"
+    body: "<white>召喚中: <active_name> (レベル <active_level>)</white><newline><white>状態: <active_status></white><newline><white>所持ペット総数: <total_pets></white>"
+    none: "なし"
+    status_stored: "収納中"
+    btn_storage: "<white>ペット保管庫</white>"
+    btn_colosseum: "<white>コロシアム</white>"
+    btn_guide: "<white>ペットガイド</white>"
+    btn_skilltree: "<white>スキルツリー</white>"
+    btn_backpack: "<white>ペットバッグ</white>"
+    btn_summon: "<green>召喚</green>"
+    btn_despawn: "<red>送還</red>"
+    btn_close: "<white>閉じる</white>"
+
+  storage:
+    title: "<white>ペット保管庫</white>"
+    body: "<white><page>/<total_pages> ページ | 所持ペット総数: <total_pets></white>"
+    btn_pet: "<white><name> Lv.<level></white>"
+    btn_prev: "<white>前のページ</white>"
+    btn_next: "<white>次のページ</white>"
+    btn_back: "<white>戻る</white>"
+
+  detail:
+    title: "<white>ペット詳細</white>"
+    body: "<white>名前: <name></white><newline><white>種類: <type></white><newline><white>カテゴリー: <category></white><newline><white>レベル: <level></white><newline><white>経験値: <exp>/<max_exp></white><newline><white>体力: <hp>/<max_hp></white><newline><white>攻撃力: <atk></white><newline><white>防御力: <def></white><newline><white>移動速度: <spd></white><newline><newline><white>スキルツリー: <skilltree></white><newline><white>スキルポイント: <skill_points></white><newline><newline><white>行動モード: <mode></white><newline><white><mode_desc></white><newline><newline><white>パッシブスキル: <passive_name></white><newline><white><passive_desc></white><newline><newline><white>アクティブスキル: <active_skill_name></white><newline><white><active_desc></white>"
+    btn_summon: "<green>召喚</green>"
+    btn_despawn: "<red>送還</red>"
+    btn_skilltree: "<white>スキルツリー</white>"
+    btn_backpack: "<white>ペットバッグ</white>"
+    btn_mode: "<white>モード変更</white>"
+    btn_treat: "<white>おやつを与える (本日残り <daily_left>)</white>"
+    btn_rename: "<white>名前変更</white>"
+    btn_guide: "<white>ペットガイド</white>"
+    btn_release: "<red>ペットを逃がす</red>"
+    btn_back: "<white>戻る</white>"
+
+  mode:
+    title: "<white>行動モードの選択</white>"
+    body: "<white>現在のモード: <current_mode></white><newline><white><current_mode_desc></white><newline><newline><white>パッシブ: 穏やかに追従、攻撃なし。</white><newline><white>防衛: 敵の攻撃から飼い主を守る。</white><newline><white>歩哨: 現在の位置を警備する。</white>"
+    btn_passive: "<white>パッシブ</white>"
+    btn_defensive: "<white>防衛</white>"
+    btn_sentry: "<white>歩哨</white>"
+    btn_back: "<white>戻る</white>"
+
+  guide:
+    title: "<white>ペットガイド</white>"
+    body: "<white>ClarityPetsガイドへようこそ。</white><newline><white>以下の項目からペットの育成やコロシアムの仕組みをご確認ください。</white>"
+    btn_basics: "<white>基本操作</white>"
+    btn_leveling: "<white>育成とおやつ</white>"
+    btn_skills: "<white>スキルとツリー</white>"
+    btn_modes: "<white>行動モード</white>"
+    btn_colosseum: "<white>コロシアム</white>"
+    btn_back: "<white>戻る</white>"
+    basics_title: "<white>ガイド: 基本操作</white>"
+    basics_body: "<white>基本仕様:</white><newline><white>保管庫に複数のペットを保持できますが、召喚できるのは一度に1体のみです。</white><newline><newline><white>召喚と送還:</white><newline><white>保管庫メニューからいつでもペットをワールドに召喚または送還できます。</white><newline><newline><white>名前変更:</white><newline><white>詳細メニューからペットの名前をいつでも変更できます。</white>"
+    leveling_title: "<white>ガイド: 育成とおやつ</white>"
+    leveling_body: "<white>経験値の獲得:</white><newline><white>サバイバル活動を通じてペットが経験値を獲得します:</white><newline><white>- モンスター討伐: 敵性モブを倒すと経験値を獲得。</white><newline><white>- 採掘: 鉱石採掘時にボーナス経験値を獲得。</white><newline><white>- 伐採: 木の伐採時にボーナス経験値を獲得。</white><newline><white>- 釣り: 魚釣り時にボーナス経験値を獲得。</white><newline><newline><white>本日のおやつ:</white><newline><white>詳細画面でおやつを与えると即座に大量の経験値を獲得できます(毎日リセット)。</white>"
+    skills_title: "<white>ガイド: スキルとツリー</white>"
+    skills_body: "<white>スキルツリーと習得スキル:</white><newline><white>各ペットは3つのアーキタイプ(系統)に属します: Juggernaut (戦闘), Guardian (支援), Scavenger (実用)。</white><newline><newline><white>スキルポイントの獲得:</white><newline><white>レベルアップごとにスキルポイントを1獲得し、最大ティア5までスキルを強化できます。</white><newline><newline><white>系統とスキル:</white><newline><white>- Juggernaut: 攻撃力, 最大体力, 装甲防御, 荊棘反射, 裂傷出血, 火炎着火, 撃退衝撃, 地震の踏みつけ。</white><newline><white>- Guardian: 最大体力, 装甲防御, 治癒の波動, ビーコンオーラ, 聖なる盾, 挑発, 氷結鈍足, 猛毒, 衰弱の呪い, 緊急ポーション。</white><newline><newline><white>- Scavenger: 荷運びバッグ, ドロップ拾得, 俊足, 鉱脈採掘, 森林伐採, 名人釣り, 影の偽装。</white><newline><newline><white>ツリーの変更とリセット:</white><newline><white>いつでも自由に系統を変更でき、変更時は消費したポイントが全額払い戻されます。</white>"
+    modes_title: "<white>ガイド: 行動モード</white>"
+    modes_body: "<white>行動モード:</white><newline><white>状況に合わせてペットの行動指針をいつでも切り替えられます:</white><newline><newline><white>パッシブモード:</white><newline><white>攻撃を行わず、穏やかに主人の後ろをついて歩きます。</white><newline><newline><white>防衛モード:</white><newline><white>主人や自身に危害を加えた敵性対象に即座に反撃します。</white><newline><newline><white>歩哨モード:</white><newline><white>現在の位置を拠点として警戒し、侵入した敵を迎撃します。</white>"
+    colosseum_title: "<white>ガイド: コロシアム</white>"
+    colosseum_body: "<white>自動コロシアム決闘:</white><newline><white>他のプレイヤーと自動決闘で対戦できます。ペットはステータスに応じて自律戦闘します。</white><newline><newline><white>三すくみ相性:</white><newline><white>- Combat(戦闘)はUtility(妨害)に+20%ダメージ。</white><newline><white>- Utility(妨害)はSupport(支援)に+20%ダメージ。</white><newline><white>- Support(支援)はCombat(戦闘)に+20%ダメージ。</white><newline><newline><white>戦術スタンス:</white><newline><white>- 攻撃的: +15% 攻撃力, -10% 防御力。</white><newline><white>- 防衛的: +20% 防御力, 反撃率上昇。</white><newline><white>- バランス: 標準的な均衡ステータス。</white>"
+
+  rename:
+    title: "<white>ペットの名前変更</white>"
+    body: "<white>以下に新しいペットの名前を入力してください。</white>"
+    input_label: "<white>ペット名</white>"
+    btn_confirm: "<green>決定</green>"
+    btn_cancel: "<red>キャンセル</red>"
+
+  release:
+    title: "<white>ペット逃がしの確認</white>"
+    body: "<white><name> を本当に逃がしますか？この操作は取り消せません。</white>"
+    btn_confirm: "<red>逃がす</red>"
+    btn_cancel: "<white>キャンセル</white>"
+
+  colosseum:
+    title: "<white>コロシアムアリーナ</white>"
+    body: "<white>決闘戦績: <wins>勝 <losses>敗 <draws>分</white><newline><white>連勝記録: <streak></white><newline><white>レーティング: <rating></white><newline><white>戦術スタンス: <stance></white>"
+    btn_stance: "<white>スタンス変更</white>"
+    btn_challenge: "<white>決闘を申し込む</white>"
+    btn_back: "<white>戻る</white>"
+
+  stance:
+    title: "<white>戦術スタンスの選択</white>"
+    body: "<white>攻撃型: 攻撃力+15パーセント 防御力-10パーセント</white><newline><white>防御型: 防御力+20パーセント 反撃発生率上昇</white><newline><white>バランス型: 標準的でバランスの取れた能力</white>"
+    btn_aggressive: "<white>攻撃型</white>"
+    btn_defensive: "<white>防御型</white>"
+    btn_balanced: "<white>バランス型</white>"
+    btn_back: "<white>戻る</white>"
+
+  challenge:
+    title: "<white>対戦相手の選択</white>"
+    body: "<white>自動決闘を申し込むオンラインプレイヤーを選択してください。</white>"
+    btn_player: "<white><player> (<pet_name> Lv.<pet_level>)</white>"
+    btn_back: "<white>戻る</white>"
+
+  skilltree:
+    title: "<white>スキルツリー - <name></white>"
+    body: "<white>系統: <tree></white><newline><white><tree_desc></white><newline><newline><white>利用可能スキルポイント: <points></white>"
+    btn_skill: "<white><skill> [Tier <tier>/<max>]</white>"
+    btn_switch: "<white>系統変更</white>"
+    btn_reset: "<red>ポイント初期化</red>"
+    btn_back: "<white>戻る</white>"
+
+  skill_detail:
+    title: "<white>特技: <skill></white>"
+    body: "<white>分類: <category></white><newline><white><desc></white><newline><newline><white>現在のティア: <tier>/<max></white><newline><white>現在の効果: <current_effect></white><newline><newline><white>次の効果: <next_effect></white><newline><newline><white>利用可能スキルポイント: <points></white>"
+    maxed: "最大ティア到達"
+    btn_upgrade: "<green>強化 (1ポイント消費)</green>"
+    btn_back: "<white>戻る</white>"
+
+  switch_tree:
+    title: "<white>系統(スキルツリー)の変更</white>"
+    body: "<white>現在の系統: <current_tree></white><newline><newline><white>系統を変更すると消費された全スキルポイントが返還され、新たな特技が解放されます。</white>"
+    btn_tree: "<white><tree></white>"
+    btn_back: "<white>戻る</white>"
+
+  reset_points:
+    title: "<white>スキルポイントの初期化</white>"
+    body: "<white>消費したスキルポイントを全て初期化して払い戻しますか？全特技がティア0にリセットされます。</white>"
+    btn_confirm: "<red>全ポイント初期化</red>"
+    btn_cancel: "<white>キャンセル</white>"
+
+message:
+  player_only: "<prefix><red>このコマンドはプレイヤーのみ実行できます。</red>"
+  no_permission: "<prefix><red>このコマンドを実行する権限がありません。</red>"
+  player_not_found: "<prefix><red>指定したプレイヤーはオンラインではありません。</red>"
+  summon_success: "<prefix><green>ペット <white><name></white> (レベル <level>) を召喚しました！</green>"
+  despawn_success: "<prefix><gray>ペット <white><name></white> を保管庫に戻しました。</gray>"
+  summon_usage: "<prefix><yellow>使用方法: /pet summon <ペットの種類></yellow>"
+  invalid_pet_type: "<prefix><red>指定されたペットの種類が無効です。</red>"
+  not_unlocked: "<prefix><red>ペット '<pet>' を所持していません。</red>"
+  already_unlocked: "<prefix><yellow>相手は既に '<pet>' を所持しています。</yellow>"
+  mode_changed: "<prefix><green>ペットの行動モードを <white><mode></white> に変更しました。</green>"
+  invalid_name: "<prefix><red>無効な名前です。1～24文字以内で指定してください。</red>"
+  rename_success: "<prefix><green>ペットの名前を <white><name></white> に変更しました！</green>"
+  release_success: "<prefix><gray>ペット <white><name></white> を逃がしました。</gray>"
+  treat_daily_limit: "<prefix><red>本日のおやつの上限 (<max>/<max>) に達しました。また明日お試しください！</red>"
+  treat_success: "<prefix><green><white><name></white> におやつを与えました！ +<exp> 経験値 (本日残り <left> 回)</green>"
+  level_up: "<prefix><green>レベルアップ！</green> <white><name></white> が <yellow>レベル <level></yellow> に到達しました！"
+  no_active_pet: "<prefix><red>この操作を行うには召喚中のペットが必要です。</red>"
+  backpack_locked: "<prefix><red>このペットはまだ荷運びバッグ特技を解放していません。</red>"
+  no_skill_points: "<prefix><red>スキルポイントが不足しています。</red>"
+  skilltree_switched: "<prefix><green>スキルツリーを <white><tree></white> に変更しました！全ポイントが返還されました。</green>"
+  points_reset: "<prefix><green>ペットのスキルポイントを初期化し、全額返還しました！</green>"
+  invalid_points: "<prefix><red>無効なポイント数が指定されました。</red>"
+  admin_addpoints_usage: "<prefix><yellow>使用法: /petadmin addpoints <プレイヤー> <ペット種類> <ポイント></yellow>"
+  admin_addpoints_success: "<prefix><green><white><player></white> の <white><pet></white> に <white><points></white> スキルポイントを付与しました！</green>"
+  admin_resetpoints_usage: "<prefix><yellow>使用法: /petadmin resetpoints <プレイヤー> <ペット種類></yellow>"
+  admin_resetpoints_success: "<prefix><green><white><player></white> の <white><pet></white> のスキルポイントを初期化しました！</green>"
+  duel_target_no_pet: "<prefix><red><target> は召喚中のペットがいません。</red>"
+  duel_arena_busy: "<prefix><red>コロシアムは現在他の決闘で使用されています。</red>"
+  duel_arena_not_configured: "<prefix><red>コロシアムアリーナが管理者によって設定されていません。</red>"
+  duel_challenge_sent: "<prefix><green><white><target></white> に決闘の挑戦状を送りました！</green>"
+  duel_challenge_received: "<prefix><yellow><challenger></yellow> からコロシアム決闘の挑戦状が届きました！ <aqua>/pet duel accept <challenger></aqua> で承諾します。"
+  duel_challenge_declined: "<prefix><gray><target> は決闘の挑戦を拒否しました。</gray>"
+  duel_accept_usage: "<prefix><yellow>使用方法: /pet duel accept <プレイヤー></yellow>"
+  duel_start: "<prefix><gold>コロシアム決闘開始！</gold> <white><opponent></white> (<pet2>) vs あなた (<pet1>)！"
+  duel_draw: "<prefix><yellow>コロシアム決闘は引き分けに終わりました！</yellow>"
+  duel_victory: "<prefix><green>決闘結果:</green> <gold><winner></gold> が <gray><loser></gray> に勝利しました！"
+  admin_help: "<white>=== ClarityPets 管理者コマンド ===</white><newline><yellow>/petadmin give <プレイヤー> <種類> [レベル]</yellow><newline><yellow>/petadmin remove <プレイヤー> <種類></yellow><newline><yellow>/petadmin setlevel <プレイヤー> <種類> <レベル></yellow><newline><yellow>/petadmin resetdailytreats <プレイヤー></yellow><newline><yellow>/petadmin setarena <pos1|pos2|spawn1|spawn2></yellow><newline><yellow>/petadmin reload</yellow>"
+  admin_reload_success: "<prefix><green>設定および言語ファイルを再読み込みしました。</green>"
+  admin_setarena_usage: "<prefix><yellow>使用方法: /petadmin setarena <pos1|pos2|spawn1|spawn2></yellow>"
+  admin_arena_set: "<prefix><green>アリーナ地点を設定しました: <white><point></white>！</green>"
+  admin_give_usage: "<prefix><yellow>使用方法: /petadmin give <プレイヤー> <種類> [レベル]</yellow>"
+  admin_give_success: "<prefix><green><white><player></white> にペット <white><pet></white> (レベル <level>) を付与しました！</green>"
+  admin_given_notice: "<prefix><green>管理者からペット <white><pet></white> (レベル <level>) を受け取りました！</green>"
+  admin_remove_usage: "<prefix><yellow>使用方法: /petadmin remove <プレイヤー> <種類></yellow>"
+  admin_remove_success: "<prefix><green><white><player></white> からペット <white><pet></white> を削除しました！</green>"
+  admin_setlevel_usage: "<prefix><yellow>使用方法: /petadmin setlevel <プレイヤー> <種類> <レベル></yellow>"
+  invalid_level: "<prefix><red>指定されたレベルが無効です。</red>"
+  admin_setlevel_success: "<prefix><green><white><player></white> のペット <white><pet></white> のレベルを <white><level></white> に設定しました！</green>"
+  admin_reset_treats_usage: "<prefix><yellow>使用方法: /petadmin resetdailytreats <プレイヤー></yellow>"
+  admin_reset_treats_success: "<prefix><green><white><player></white> の本日のおやつ回数をリセットしました！</green>"

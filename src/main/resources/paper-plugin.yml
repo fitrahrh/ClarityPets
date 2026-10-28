@@ -1,0 +1,22 @@
+name: ClarityPets
+version: '${version}'
+main: com.harukiyu.claritypets.ClarityPets
+api-version: '1.21'
+author: Harukiyu
+description: High-performance survival companion and automated colosseum duel system for Clarity Network with Paper Dialog API
+dependencies:
+  server:
+    ClarityLangCore:
+      load: BEFORE
+      required: false
+    PlaceholderAPI:
+      load: BEFORE
+      required: false
+
+permissions:
+  claritypets.use:
+    description: Allows using basic pet commands and opening the pet menu
+    default: true
+  claritypets.admin:
+    description: Allows administrative pet and colosseum commands
+    default: op

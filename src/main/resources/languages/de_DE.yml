@@ -1,0 +1,199 @@
+prefix: "<gray>[<aqua>ClarityPets</aqua>]</gray> "
+
+category:
+  combat: "Kampf"
+  utility: "Nutzen"
+  support: "Unterstutzung"
+
+mode:
+  passive: "Passiv"
+  defensive: "Verteidigend"
+  sentry: "Wachposten"
+  pocket: "Gelagert"
+
+mode_desc:
+  passive: "Folgt friedlich und greift niemals ein Ziel an."
+  defensive: "Folgt treu und greift jeden an, der dich oder das Tier schaedigt."
+  sentry: "Bewacht die aktuelle Position und greift Monster im Umkreis an."
+  pocket: "Im Lager inaktiv."
+
+pet:
+  nametag_format: "<white><name></white> <gray>[St.<level>]</gray>"
+
+dialog:
+  main:
+    title: "<white>Haustierverwaltung</white>"
+    body: "<white>Aktives Haustier: <active_name> (Stufe <active_level>)</white><newline><white>Status: <active_status></white><newline><white>Gesamtzahl Haustiere: <total_pets></white>"
+    none: "Keines"
+    status_stored: "Gelagert"
+    btn_storage: "<white>Haustierlager</white>"
+    btn_colosseum: "<white>Kolosseum</white>"
+    btn_guide: "<white>Haustier-Leitfaden</white>"
+    btn_skilltree: "<white>Talentbaum & Faehigkeiten</white>"
+    btn_backpack: "<white>Haustier-Rucksack</white>"
+    btn_summon: "<green>Beschwoeren</green>"
+    btn_despawn: "<red>Wegschicken</red>"
+    btn_close: "<white>Schliessen</white>"
+
+  storage:
+    title: "<white>Haustierlager</white>"
+    body: "<white>Seite <page> von <total_pages> | Haustiere gesamt: <total_pets></white>"
+    btn_pet: "<white><name> St.<level></white>"
+    btn_prev: "<white>Vorherige Seite</white>"
+    btn_next: "<white>Naechste Seite</white>"
+    btn_back: "<white>Zurueck</white>"
+
+  detail:
+    title: "<white>Haustierdetails</white>"
+    body: "<white>Name: <name></white><newline><white>Typ: <type></white><newline><white>Kategorie: <category></white><newline><white>Stufe: <level></white><newline><white>Erfahrung: <exp>/<max_exp></white><newline><white>Gesundheit: <hp>/<max_hp></white><newline><white>Angriff: <atk></white><newline><white>Verteidigung: <def></white><newline><white>Geschwindigkeit: <spd></white><newline><newline><white>Talentbaum: <skilltree></white><newline><white>Faehigkeitspunkte: <skill_points></white><newline><newline><white>Verhalten: <mode></white><newline><white><mode_desc></white><newline><newline><white>Passive Faehigkeit: <passive_name></white><newline><white><passive_desc></white><newline><newline><white>Aktive Faehigkeit: <active_skill_name></white><newline><white><active_desc></white>"
+    btn_summon: "<green>Beschwoeren</green>"
+    btn_despawn: "<red>Wegschicken</red>"
+    btn_skilltree: "<white>Talentbaum & Faehigkeiten</white>"
+    btn_backpack: "<white>Haustier-Rucksack</white>"
+    btn_mode: "<white>Modus aendern</white>"
+    btn_treat: "<white>Leckerli geben (<daily_left> uebrig)</white>"
+    btn_rename: "<white>Umbenennen</white>"
+    btn_guide: "<white>Haustier-Leitfaden</white>"
+    btn_release: "<red>Freilassen</red>"
+    btn_back: "<white>Zurueck</white>"
+
+  mode:
+    title: "<white>Verhaltensmodus waehlen</white>"
+    body: "<white>Aktueller Modus: <current_mode></white><newline><white><current_mode_desc></white><newline><newline><white>Passiv: Folgt friedlich, greift nicht an.</white><newline><white>Verteidigend: Beschuetzt dich vor Angreifern.</white><newline><white>Wachposten: Bewacht aktuellen Standort.</white>"
+    btn_passive: "<white>Passiv</white>"
+    btn_defensive: "<white>Verteidigend</white>"
+    btn_sentry: "<white>Wachposten</white>"
+    btn_back: "<white>Zurueck</white>"
+
+  guide:
+    title: "<white>Haustier-Leitfaden</white>"
+    body: "<white>Willkommen zum ClarityPets-Leitfaden.</white><newline><white>Waehle unten eine Kategorie, um mehr ueber Mechaniken, Training und das Kolosseum zu erfahren.</white>"
+    btn_basics: "<white>Grundlagen & Steuerung</white>"
+    btn_leveling: "<white>Stufen & Leckerlis</white>"
+    btn_skills: "<white>Talente & Faehigkeiten</white>"
+    btn_modes: "<white>Verhaltensmodi</white>"
+    btn_colosseum: "<white>Kolosseum-Arena</white>"
+    btn_back: "<white>Zurueck</white>"
+    basics_title: "<white>Leitfaden: Grundlagen</white>"
+    basics_body: "<white>Grundprinzipien:</white><newline><white>Du kannst viele Haustiere sammeln, aber nur jeweils 1 aktives Tier beschwoeren.</white><newline><newline><white>Beschwoerung & Lager:</white><newline><white>Nutze das Lager, um deine Begleiter in die Welt zu rufen oder sicher wegzuschicken.</white><newline><newline><white>Anpassung:</white><newline><white>Benenne dein Tier jederzeit ueber das Detail-Menue um.</white>"
+    leveling_title: "<white>Leitfaden: Stufen</white>"
+    leveling_body: "<white>Erfahrung sammeln:</white><newline><white>Dein aktiver Begleiter erhaelt natuerlich EXP durch Ueberlebensaktivitaeten:</white><newline><white>- Monsterjagd: Besiegen von Feinden gewaehrt EXP.</white><newline><white>- Bergbau: Abbau von Erzen gewaehrt EXP.</white><newline><white>- Holzfaellen: Baumfaellen gewaehrt EXP.</white><newline><white>- Angeln: Fische fangen gewaehrt EXP.</white><newline><newline><white>Taegliche Leckerlis:</white><newline><white>Fuettere taegliche Leckerlis im Menue fuer sofortige Erfahrungsspruenge.</white>"
+    skills_title: "<white>Leitfaden: Faehigkeiten</white>"
+    skills_body: "<white>Talentbaeume & Faehigkeiten:</white><newline><white>Jedes Haustier gehoert zu einem Archetyp: Juggernaut (Kampf), Guardian (Schutz/Support) oder Scavenger (Nutzen).</white><newline><newline><white>Faehigkeitspunkte:</white><newline><white>Mit jedem Stufenaufstieg erhaelt dein Begleiter 1 Punkt. Maximiere Talente bis Rang 5.</white><newline><newline><white>Talentbaum-Wechsel:</white><newline><white>Du kannst den Archetyp jederzeit frei wechseln. Alle investierten Punkte werden automatisch erstattet.</white>"
+    modes_title: "<white>Leitfaden: Verhaltensmodi</white>"
+    modes_body: "<white>Verhaltensmodi:</white><newline><white>Passe das Verhalten deines Begleiters jederzeit an:</white><newline><newline><white>Passiver Modus:</white><newline><white>Folgt dir friedlich und nimmt an keinem Kampf teil.</white><newline><newline><white>Verteidigungsmodus:</white><newline><white>Gleicht Angriffe gegen dich oder sich selbst sofort aus.</white><newline><newline><white>Wachpostenmodus:</white><newline><white>Sichert das aktuelle Areal und bekaempft nahe Feinde.</white>"
+    colosseum_title: "<white>Leitfaden: Kolosseum</white>"
+    colosseum_body: "<white>Automatische Kolosseum-Duelle:</white><newline><white>Fordere andere Spieler heraus. Die Haustiere kaempfen vollautomatisch in der Arena.</white><newline><newline><white>Kategorievorteile:</white><newline><white>- Kampf verursacht +20 Prozent Schaden an Nutzen.</white><newline><white>- Nutzen verursacht +20 Prozent Schaden an Unterstuetzung.</white><newline><white>- Unterstuetzung verursacht +20 Prozent Schaden an Kampf.</white><newline><newline><white>Taktische Haltungen:</white><newline><white>- Aggressiv: +15 Prozent Angriff, -10 Prozent Verteidigung.</white><newline><white>- Defensiv: +20 Prozent Verteidigung, hoehere Konterrate.</white><newline><white>- Ausgeglichen: Standardmaessig ausgewogene Werte.</white>"
+
+  rename:
+    title: "<white>Haustier umbenennen</white>"
+    body: "<white>Gib unten einen neuen Namen fuer dein Haustier ein.</white>"
+    input_label: "<white>Haustiername</white>"
+    btn_confirm: "<green>Bestaetigen</green>"
+    btn_cancel: "<red>Abbrechen</red>"
+
+  release:
+    title: "<white>Freilassung bestaetigen</white>"
+    body: "<white>Bist du sicher, dass du <name> freilassen moechtest? Dies kann nicht rueckgaengig gemacht werden.</white>"
+    btn_confirm: "<red>Bestaetigen</red>"
+    btn_cancel: "<white>Abbrechen</white>"
+
+  colosseum:
+    title: "<white>Kolosseum-Arena</white>"
+    body: "<white>Duell-Statistik: <wins> Siege, <losses> Niederlagen, <draws> Unentschieden</white><newline><white>Siegesserie: <streak></white><newline><white>Wertung: <rating></white><newline><white>Taktische Haltung: <stance></white>"
+    btn_stance: "<white>Haltung aendern</white>"
+    btn_challenge: "<white>Spieler herausfordern</white>"
+    btn_back: "<white>Zurueck</white>"
+
+  stance:
+    title: "<white>Taktische Haltung waehlen</white>"
+    body: "<white>Aggressiv: +15 Prozent Angriff, -10 Prozent Verteidigung</white><newline><white>Defensiv: +20 Prozent Verteidigung, erhoehte Konterchance</white><newline><white>Ausgeglichen: Standardmaessig ausgewogene Kampfwerte</white>"
+    btn_aggressive: "<white>Aggressiv</white>"
+    btn_defensive: "<white>Defensiv</white>"
+    btn_balanced: "<white>Ausgeglichen</white>"
+    btn_back: "<white>Zurueck</white>"
+
+  challenge:
+    title: "<white>Gegner auswaehlen</white>"
+    body: "<white>Waehle einen Online-Spieler fuer ein automatisches Kolosseum-Duell aus.</white>"
+    btn_player: "<white><player> (<pet_name> St.<pet_level>)</white>"
+    btn_back: "<white>Zurueck</white>"
+
+  skilltree:
+    title: "<white>Talentbaum - <name></white>"
+    body: "<white>Archetyp: <tree></white><newline><white><tree_desc></white><newline><newline><white>Verfuegbare Faehigkeitspunkte: <points></white>"
+    btn_skill: "<white><skill> [Rang <tier>/<max>]</white>"
+    btn_switch: "<white>Talentbaum wechseln</white>"
+    btn_reset: "<red>Punkte zuruecksetzen</red>"
+    btn_back: "<white>Zurueck</white>"
+
+  skill_detail:
+    title: "<white>Faehigkeit: <skill></white>"
+    body: "<white>Kategorie: <category></white><newline><white><desc></white><newline><newline><white>Aktueller Rang: <tier>/<max></white><newline><white>Aktueller Effekt: <current_effect></white><newline><newline><white>Naechster Rang: <next_effect></white><newline><newline><white>Verfuegbare Punkte: <points></white>"
+    maxed: "Maximaler Rang erreicht"
+    btn_upgrade: "<green>Aufwerten (1 Punkt)</green>"
+    btn_back: "<white>Zurueck</white>"
+
+  switch_tree:
+    title: "<white>Talentbaum wechseln</white>"
+    body: "<white>Aktueller Archetyp: <current_tree></white><newline><newline><white>Beim Wechsel des Talentbaums werden alle Punkte erstattet und neue Faehigkeiten freigeschaltet.</white>"
+    btn_tree: "<white><tree></white>"
+    btn_back: "<white>Zurueck</white>"
+
+  reset_points:
+    title: "<white>Punkte zuruecksetzen</white>"
+    body: "<white>Moechtest du wirklich alle Talentpunkte zuruecksetzen? Alle Faehigkeiten fallen auf Rang 0 zurueck.</white>"
+    btn_confirm: "<red>Alle Punkte zuruecksetzen</red>"
+    btn_cancel: "<white>Abbrechen</white>"
+
+message:
+  player_only: "<prefix><red>Dieser Befehl kann nur von Spielern ausgefuehrt werden.</red>"
+  no_permission: "<prefix><red>Du hast keine Berechtigung fuer diesen Befehl.</red>"
+  player_not_found: "<prefix><red>Der Zielspieler ist nicht online.</red>"
+  summon_success: "<prefix><green>Dein Haustier <white><name></white> (Stufe <level>) wurde beschworen!</green>"
+  despawn_success: "<prefix><gray>Dein Haustier <white><name></white> wurde ins Lager zurueckgerufen.</gray>"
+  summon_usage: "<prefix><yellow>Verwendung: /pet summon <haustiertyp></yellow>"
+  invalid_pet_type: "<prefix><red>Ungueltiger Haustiertyp angegeben.</red>"
+  not_unlocked: "<prefix><red>Du besitzt das Haustier '<pet>' nicht.</red>"
+  already_unlocked: "<prefix><yellow>Der Zielspieler besitzt '<pet>' bereits.</yellow>"
+  mode_changed: "<prefix><green>Verhaltensmodus geaendert zu <white><mode></white>.</green>"
+  invalid_name: "<prefix><red>Ungueltiger Name. Muss zwischen 1 und 24 Zeichen lang sein.</red>"
+  rename_success: "<prefix><green>Haustier erfolgreich umbenannt in <white><name></white>!</green>"
+  release_success: "<prefix><gray>Haustier <white><name></white> wurde freigelassen.</gray>"
+  treat_daily_limit: "<prefix><red>Taegliches Limit erreicht (<max>/<max>). Komm morgen wieder!</red>"
+  treat_success: "<prefix><green><white><name></white> gefuettert! +<exp> EXP. (<left> heute uebrig)</green>"
+  level_up: "<prefix><green>Stufenaufstieg!</green> <white><name></white> hat <yellow>Stufe <level></yellow> erreicht!"
+  no_active_pet: "<prefix><red>Du benoetigst ein aktiv beschworenes Haustier dafuer.</red>"
+  backpack_locked: "<prefix><red>Dein Haustier hat die Rucksack-Faehigkeit noch nicht erlernt.</red>"
+  no_skill_points: "<prefix><red>Du hast nicht genuegend Faehigkeitspunkte.</red>"
+  skilltree_switched: "<prefix><green>Talentbaum gewechselt zu <white><tree></white>! Alle Punkte erstattet.</green>"
+  points_reset: "<prefix><green>Alle Haustier-Talentpunkte wurden zurueckgesetzt!</green>"
+  invalid_points: "<prefix><red>Ungueltige Punktzahl angegeben.</red>"
+  admin_addpoints_usage: "<prefix><yellow>Verwendung: /petadmin addpoints <spieler> <haustiertyp> <punkte></yellow>"
+  admin_addpoints_success: "<prefix><green><white><points></white> Talentpunkte an <white><player></white> (<white><pet></white>) vergeben!</green>"
+  admin_resetpoints_usage: "<prefix><yellow>Verwendung: /petadmin resetpoints <spieler> <haustiertyp></yellow>"
+  admin_resetpoints_success: "<prefix><green>Talentpunkte fuer <white><pet></white> von <white><player></white> zurueckgesetzt!</green>"
+  duel_target_no_pet: "<prefix><red><target> hat kein aktiv beschworenes Haustier.</red>"
+  duel_arena_busy: "<prefix><red>Das Kolosseum ist derzeit besetzt.</red>"
+  duel_arena_not_configured: "<prefix><red>Die Kolosseum-Arena wurde noch nicht konfiguriert.</red>"
+  duel_challenge_sent: "<prefix><green>Kolosseum-Duell-Herausforderung an <white><target></white> gesendet!</green>"
+  duel_challenge_received: "<prefix><yellow><challenger></yellow> fordert dich zu einem Kolosseum-Duell heraus! Gib <aqua>/pet duel accept <challenger></aqua> ein."
+  duel_challenge_declined: "<prefix><gray><target> hat dein Duell abgelehnt.</gray>"
+  duel_accept_usage: "<prefix><yellow>Verwendung: /pet duel accept <spieler></yellow>"
+  duel_start: "<prefix><gold>Kolosseum-Duell gestartet!</gold> <white><opponent></white> (<pet2>) vs Du (<pet1>)!"
+  duel_draw: "<prefix><yellow>Das Duell endet UNENTSCHIEDEN!</yellow>"
+  duel_victory: "<prefix><green>Ergebnis:</green> <gold><winner></gold> besiegt <gray><loser></gray>!"
+  admin_help: "<white>=== ClarityPets Admin-Befehle ===</white><newline><yellow>/petadmin give <spieler> <typ> [stufe]</yellow><newline><yellow>/petadmin remove <spieler> <typ></yellow><newline><yellow>/petadmin setlevel <spieler> <typ> <stufe></yellow><newline><yellow>/petadmin resetdailytreats <spieler></yellow><newline><yellow>/petadmin setarena <pos1|pos2|spawn1|spawn2></yellow><newline><yellow>/petadmin reload</yellow>"
+  admin_reload_success: "<prefix><green>Konfigurations- und Sprachdateien erfolgreich neu geladen.</green>"
+  admin_setarena_usage: "<prefix><yellow>Verwendung: /petadmin setarena <pos1|pos2|spawn1|spawn2></yellow>"
+  admin_arena_set: "<prefix><green>Kolosseum-Arenapunkt gesetzt: <white><point></white>!</green>"
+  admin_give_usage: "<prefix><yellow>Verwendung: /petadmin give <spieler> <typ> [stufe]</yellow>"
+  admin_give_success: "<prefix><green><white><pet></white> (Stufe <level>) an <white><player></white> gegeben!</green>"
+  admin_given_notice: "<prefix><green>Du hast Haustier <white><pet></white> (Stufe <level>) erhalten!</green>"
+  admin_remove_usage: "<prefix><yellow>Verwendung: /petadmin remove <spieler> <typ></yellow>"
+  admin_remove_success: "<prefix><green>Haustier <white><pet></white> von <white><player></white> entfernt!</green>"
+  admin_setlevel_usage: "<prefix><yellow>Verwendung: /petadmin setlevel <spieler> <typ> <stufe></yellow>"
+  invalid_level: "<prefix><red>Ungueltige Stufe angegeben.</red>"
+  admin_setlevel_success: "<prefix><green>Stufe von <white><pet></white> fuer <white><player></white> auf <white><level></white> gesetzt!</green>"
+  admin_reset_treats_usage: "<prefix><yellow>Verwendung: /petadmin resetdailytreats <spieler></yellow>"
+  admin_reset_treats_success: "<prefix><green>Taegliche Leckerlis fuer <white><player></white> zurueckgesetzt!</green>"

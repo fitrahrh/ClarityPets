@@ -1,0 +1,199 @@
+prefix: "<gray>[<aqua>ClarityPets</aqua>]</gray> "
+
+category:
+  combat: "战斗"
+  utility: "辅助"
+  support: "支援"
+
+mode:
+  passive: "被动跟随"
+  defensive: "协助防卫"
+  sentry: "驻地守卫"
+  pocket: "已收回"
+
+mode_desc:
+  passive: "温顺跟随主人，绝不主动攻击任何生物。"
+  defensive: "紧跟主人，在主人或自身受到攻击时主动反击。"
+  sentry: "原地驻守警戒，攻击进入警戒范围的敌对怪物。"
+  pocket: "已存放于仓库中。"
+
+pet:
+  nametag_format: "<white><name></white> <gray>[Lv.<level>]</gray>"
+
+dialog:
+  main:
+    title: "<white>宠物管理</white>"
+    body: "<white>当前出战: <active_name> (等级 <active_level>)</white><newline><white>状态: <active_status></white><newline><white>拥有宠物总数: <total_pets></white>"
+    none: "无"
+    status_stored: "已存放"
+    btn_storage: "<white>宠物仓库</white>"
+    btn_colosseum: "<white>角斗场</white>"
+    btn_guide: "<white>宠物指南</white>"
+    btn_skilltree: "<white>技能树与特技</white>"
+    btn_backpack: "<white>宠物专属背包</white>"
+    btn_summon: "<green>召唤出战</green>"
+    btn_despawn: "<red>收回宠物</red>"
+    btn_close: "<white>关闭</white>"
+
+  storage:
+    title: "<white>宠物仓库</white>"
+    body: "<white>第 <page>/<total_pages> 页 | 宠物总数: <total_pets></white>"
+    btn_pet: "<white><name> Lv.<level></white>"
+    btn_prev: "<white>上一页</white>"
+    btn_next: "<white>下一页</white>"
+    btn_back: "<white>返回</white>"
+
+  detail:
+    title: "<white>宠物详情</white>"
+    body: "<white>名称: <name></white><newline><white>种类: <type></white><newline><white>类别: <category></white><newline><white>等级: <level></white><newline><white>经验值: <exp>/<max_exp></white><newline><white>生命值: <hp>/<max_hp></white><newline><white>攻击力: <atk></white><newline><white>防御力: <def></white><newline><white>速度: <spd></white><newline><newline><white>技能流派: <skilltree></white><newline><white>可用技能点: <skill_points></white><newline><newline><white>行为模式: <mode></white><newline><white><mode_desc></white><newline><newline><white>被动技能: <passive_name></white><newline><white><passive_desc></white><newline><newline><white>主动技能: <active_skill_name></white><newline><white><active_desc></white>"
+    btn_summon: "<green>召唤出战</green>"
+    btn_despawn: "<red>收回宠物</red>"
+    btn_skilltree: "<white>技能树与特技</white>"
+    btn_backpack: "<white>宠物专属背包</white>"
+    btn_mode: "<white>切换模式</white>"
+    btn_treat: "<white>喂食零食 (今日剩余 <daily_left>)</white>"
+    btn_rename: "<white>修改名称</white>"
+    btn_guide: "<white>宠物指南</white>"
+    btn_release: "<red>放生宠物</red>"
+    btn_back: "<white>返回</white>"
+
+  mode:
+    title: "<white>选择行为模式</white>"
+    body: "<white>当前模式: <current_mode></white><newline><white><current_mode_desc></white><newline><newline><white>被动跟随: 温顺跟随，绝不攻击。</white><newline><white>协助防卫: 保护主人，反击敌人。</white><newline><white>驻地守卫: 原地警戒守卫区域。</white>"
+    btn_passive: "<white>被动跟随</white>"
+    btn_defensive: "<white>协助防卫</white>"
+    btn_sentry: "<white>驻地守卫</white>"
+    btn_back: "<white>返回</white>"
+
+  guide:
+    title: "<white>宠物指南</white>"
+    body: "<white>欢迎查阅 ClarityPets 宠物系统指南。</white><newline><white>请选择下方类别以了解基础操控、等级培养与角斗场机制。</white>"
+    btn_basics: "<white>基础操作</white>"
+    btn_leveling: "<white>等级与零食</white>"
+    btn_skills: "<white>技能树与特技</white>"
+    btn_modes: "<white>行为模式</white>"
+    btn_colosseum: "<white>角斗场</white>"
+    btn_back: "<white>返回</white>"
+    basics_title: "<white>指南: 基础操作</white>"
+    basics_body: "<white>宠物机制:</white><newline><white>你可以收集多只宠物存入仓库，但同时只能召唤 1 只出战。</white><newline><newline><white>召唤与收回:</white><newline><white>使用宠物仓库菜单随时召唤或收回你的忠实伙伴。</white><newline><newline><white>个性化:</white><newline><white>在宠物详情菜单中可以随时自定义修改宠物昵称。</white>"
+    leveling_title: "<white>指南: 等级与培养</white>"
+    leveling_body: "<white>获取经验:</white><newline><white>出战宠物在各项生存活动中自然获取经验:</white><newline><white>- 击杀怪物: 击杀敌对生物获得经验值。</white><newline><white>- 采集矿石: 挖掘矿石获得额外经验值。</white><newline><white>- 伐木采集: 砍伐树木获得额外经验值。</white><newline><white>- 垂钓钓鱼: 钓获渔获获得额外经验值。</white><newline><newline><white>每日零食:</white><newline><white>在详情菜单中喂食每日零食获取大量经验，每日零食次数每日刷新。</white>"
+    skills_title: "<white>指南: 技能与技能树</white>"
+    skills_body: "<white>技能树流派与可学习特技:</white><newline><white>每只宠物拥有独特流派: 主宰系 Juggernaut (战斗)、守护系 Guardian (辅助)、掠夺系 Scavenger (生存实用)。</white><newline><newline><white>技能点获取:</white><newline><white>宠物每次升级获得 1 个技能点，最高可将技能升至 5 阶。</white><newline><newline><white>流派特色技能:</white><newline><white>- 主宰系: 强击伤害、生命加成、坚甲防御、尖刺反伤、割裂流血、烈焰灼烧、强力击退、地震践踏。</white><newline><white>- 守护系: 生命加成、坚甲防御、治愈光环、信标增益、庇护神盾、嘲讽挑衅、寒霜减速、剧毒侵蚀、凋零腐朽、应急救命药水。</white><newline><newline><white>- 掠夺系: 驮骡背包、掉落拾取、疾步迅捷、矿石勘探、高效伐木、钓鱼达人、暗影伪装。</white><newline><newline><white>无损重置与流派切换:</white><newline><white>随时可在技能树菜单中自由切换流派或重置技能点，已投入的点数将全额无损退还！</white>"
+    modes_title: "<white>指南: 行为模式</white>"
+    modes_body: "<white>行为模式详解:</white><newline><white>你可以随时调整宠物的行为反应:</white><newline><newline><white>被动跟随:</white><newline><white>宠物温顺跟随，完全不参与战斗。</white><newline><newline><white>协助防卫:</white><newline><white>紧密跟随主人，并在主人或自身受伤时全力反击敌人。</white><newline><newline><white>驻地守卫:</white><newline><white>驻守当前位置，自动击退进入警戒范围的敌对怪物。</white>"
+    colosseum_title: "<white>指南: 角斗场</white>"
+    colosseum_body: "<white>全自动角斗场对决:</white><newline><white>向其他在线玩家发起决斗挑战，宠物将根据自身属性与技能自动交锋。</white><newline><newline><white>类别克制机制:</white><newline><white>- 战斗系克制辅助系 (造成 +20% 伤害)。</white><newline><white>- 辅助系克制支援系 (造成 +20% 伤害)。</white><newline><white>- 支援系克制战斗系 (造成 +20% 伤害)。</white><newline><newline><white>战术姿态:</white><newline><white>- 激进姿态: +15% 攻击力, -10% 防御力。</white><newline><white>- 防守姿态: +20% 防御力, 更高反击概率。</white><newline><white>- 均衡姿态: 标准平衡属性战斗。</white>"
+
+  rename:
+    title: "<white>修改宠物名称</white>"
+    body: "<white>在下方输入宠物的新名称。</white>"
+    input_label: "<white>宠物名称</white>"
+    btn_confirm: "<green>确认修改</green>"
+    btn_cancel: "<red>取消</red>"
+
+  release:
+    title: "<white>确认放生</white>"
+    body: "<white>您确定要放生 <name> 吗？此操作无法撤销。</white>"
+    btn_confirm: "<red>确认放生</red>"
+    btn_cancel: "<white>取消</white>"
+
+  colosseum:
+    title: "<white>角斗场</white>"
+    body: "<white>决斗战绩: <wins> 胜, <losses> 负, <draws> 平</white><newline><white>连胜场次: <streak></white><newline><white>竞技天梯积分: <rating></white><newline><white>战术姿态: <stance></white>"
+    btn_stance: "<white>切换姿态</white>"
+    btn_challenge: "<white>挑战玩家</white>"
+    btn_back: "<white>返回</white>"
+
+  stance:
+    title: "<white>选择战术姿态</white>"
+    body: "<white>进攻姿态: +15 百分比攻击力, -10 百分比防御力</white><newline><white>防守姿态: +20 百分比防御力, 提高反击几率</white><newline><white>平衡姿态: 标准均衡战斗属性</white>"
+    btn_aggressive: "<white>进攻姿态</white>"
+    btn_defensive: "<white>防守姿态</white>"
+    btn_balanced: "<white>平衡姿态</white>"
+    btn_back: "<white>返回</white>"
+
+  challenge:
+    title: "<white>选择对手</white>"
+    body: "<white>选择一名在线玩家发起角斗场自动决斗挑战。</white>"
+    btn_player: "<white><player> (<pet_name> Lv.<pet_level>)</white>"
+    btn_back: "<white>返回</white>"
+
+  skilltree:
+    title: "<white>技能树 - <name></white>"
+    body: "<white>当前流派: <tree></white><newline><white><tree_desc></white><newline><newline><white>可用技能点: <points></white>"
+    btn_skill: "<white><skill> [阶级 <tier>/<max>]</white>"
+    btn_switch: "<white>切换流派</white>"
+    btn_reset: "<red>重置点数</red>"
+    btn_back: "<white>返回</white>"
+
+  skill_detail:
+    title: "<white>特技: <skill></white>"
+    body: "<white>类别: <category></white><newline><white><desc></white><newline><newline><white>当前阶级: <tier>/<max></white><newline><white>当前效果: <current_effect></white><newline><newline><white>下一阶级: <next_effect></white><newline><newline><white>可用技能点: <points></white>"
+    maxed: "已达到最高阶级"
+    btn_upgrade: "<green>升级 (消耗 1 点)</green>"
+    btn_back: "<white>返回</white>"
+
+  switch_tree:
+    title: "<white>切换技能流派</white>"
+    body: "<white>当前流派: <current_tree></white><newline><newline><white>切换流派将无损退还所有已投入的技能点，并解锁该流派下的全部特技。</white>"
+    btn_tree: "<white><tree></white>"
+    btn_back: "<white>返回</white>"
+
+  reset_points:
+    title: "<white>重置技能点</white>"
+    body: "<white>您确定要重置并退还所有已投入的技能点吗？所有特技将重置为 0 阶。</white>"
+    btn_confirm: "<red>重置所有技能点</red>"
+    btn_cancel: "<white>取消</white>"
+
+message:
+  player_only: "<prefix><red>该命令只能由在线玩家执行。</red>"
+  no_permission: "<prefix><red>您没有权限执行此命令。</red>"
+  player_not_found: "<prefix><red>目标玩家不在线。</red>"
+  summon_success: "<prefix><green>成功召唤您的宠物 <white><name></white> (等级 <level>)！</green>"
+  despawn_success: "<prefix><gray>您的宠物 <white><name></white> 已收回到仓库。</gray>"
+  summon_usage: "<prefix><yellow>用法: /pet summon <pet_type></yellow>"
+  invalid_pet_type: "<prefix><red>指定的宠物种类无效。</red>"
+  not_unlocked: "<prefix><red>您尚未拥有宠物 '<pet>'。</red>"
+  already_unlocked: "<prefix><yellow>目标玩家已拥有宠物 '<pet>'。</yellow>"
+  mode_changed: "<prefix><green>宠物行为模式已切换为 <white><mode></white>。</green>"
+  invalid_name: "<prefix><red>宠物名称无效，长度必须在 1 到 24 个字符之间。</red>"
+  rename_success: "<prefix><green>成功将宠物重命名为 <white><name></white>！</green>"
+  release_success: "<prefix><gray>宠物 <white><name></white> 已被放生。</gray>"
+  treat_daily_limit: "<prefix><red>今日喂食零食已达上限 (<max>/<max>)，请明日再来！</red>"
+  treat_success: "<prefix><green>已喂食 <white><name></white>！+<exp> 经验值。(今日剩余 <left> 次)</green>"
+  level_up: "<prefix><green>等级提升！</green> <white><name></white> 升到了 <yellow>等级 <level></yellow>！"
+  no_active_pet: "<prefix><red>您需要先召唤一只出战宠物才能执行此操作。</red>"
+  backpack_locked: "<prefix><red>您的宠物尚未解锁驮骡背包特技。</red>"
+  no_skill_points: "<prefix><red>您的技能点不足。</red>"
+  skilltree_switched: "<prefix><green>技能流派已切换至 <white><tree></white>！已退还全部技能点。</green>"
+  points_reset: "<prefix><green>已重置并退还该宠物全部技能点！</green>"
+  invalid_points: "<prefix><red>指定的点数数值无效。</red>"
+  admin_addpoints_usage: "<prefix><yellow>用法: /petadmin addpoints <玩家> <宠物类型> <点数></yellow>"
+  admin_addpoints_success: "<prefix><green>已为 <white><player></white> 的宠物 <white><pet></white> 增加 <white><points></white> 技能点！</green>"
+  admin_resetpoints_usage: "<prefix><yellow>用法: /petadmin resetpoints <玩家> <宠物类型></yellow>"
+  admin_resetpoints_success: "<prefix><green>已重置 <white><player></white> 的宠物 <white><pet></white> 的技能点！</green>"
+  duel_target_no_pet: "<prefix><red><target> 没有正在出战的宠物。</red>"
+  duel_arena_busy: "<prefix><red>角斗场当前正在进行另一场决斗，请稍候。</red>"
+  duel_arena_not_configured: "<prefix><red>管理员尚未完成角斗场区域的坐标配置。</red>"
+  duel_challenge_sent: "<prefix><green>已向 <white><target></white> 发送角斗场挑战邀请！</green>"
+  duel_challenge_received: "<prefix><yellow><challenger></yellow> 邀请您进行角斗场宠物对决！输入 <aqua>/pet duel accept <challenger></aqua> 接受挑战。"
+  duel_challenge_declined: "<prefix><gray><target> 拒绝了您的对决邀请。</gray>"
+  duel_accept_usage: "<prefix><yellow>用法: /pet duel accept <player></yellow>"
+  duel_start: "<prefix><gold>角斗场决斗正式开始！</gold> <white><opponent></white> (<pet2>) 对战 您 (<pet1>)！"
+  duel_draw: "<prefix><yellow>角斗场决斗时间耗尽，双方打成平手！</yellow>"
+  duel_victory: "<prefix><green>角斗场决斗结果：</green> <gold><winner></gold> 击败了 <gray><loser></gray>！"
+  admin_help: "<white>=== ClarityPets 管理员指令 ===</white><newline><yellow>/petadmin give <player> <pet_type> [level]</yellow><newline><yellow>/petadmin remove <player> <pet_type></yellow><newline><yellow>/petadmin setlevel <player> <pet_type> <level></yellow><newline><yellow>/petadmin resetdailytreats <player></yellow><newline><yellow>/petadmin setarena <pos1|pos2|spawn1|spawn2></yellow><newline><yellow>/petadmin reload</yellow>"
+  admin_reload_success: "<prefix><green>配置文件与语言文件已成功重新加载。</green>"
+  admin_setarena_usage: "<prefix><yellow>用法: /petadmin setarena <pos1|pos2|spawn1|spawn2></yellow>"
+  admin_arena_set: "<prefix><green>成功设置角斗场坐标点: <white><point></white>！</green>"
+  admin_give_usage: "<prefix><yellow>用法: /petadmin give <player> <pet_type> [level]</yellow>"
+  admin_give_success: "<prefix><green>成功给予 <white><player></white> 宠物 <white><pet></white> (等级 <level>)！</green>"
+  admin_given_notice: "<prefix><green>管理员给予了您宠物 <white><pet></white> (等级 <level>)！</green>"
+  admin_remove_usage: "<prefix><yellow>用法: /petadmin remove <player> <pet_type></yellow>"
+  admin_remove_success: "<prefix><green>已从 <white><player></white> 处移除宠物 <white><pet></white>！</green>"
+  admin_setlevel_usage: "<prefix><yellow>用法: /petadmin setlevel <player> <pet_type> <level></yellow>"
+  invalid_level: "<prefix><red>指定的等级无效。</red>"
+  admin_setlevel_success: "<prefix><green>已将 <white><player></white> 的宠物 <white><pet></white> 等级设置为 <white><level></white>！</green>"
+  admin_reset_treats_usage: "<prefix><yellow>用法: /petadmin resetdailytreats <player></yellow>"
+  admin_reset_treats_success: "<prefix><green>已重置 <white><player></white> 的每日宠物零食使用次数！</green>"

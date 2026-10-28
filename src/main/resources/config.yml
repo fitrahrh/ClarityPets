@@ -1,0 +1,59 @@
+# ==============================================================================
+#                                ClarityPets
+# ==============================================================================
+
+database:
+  host: "localhost"
+  port: 3306
+  database: "clarity"
+  username: "root"
+  password: "password"
+  use-ssl: false
+  pool:
+    maximum-pool-size: 10
+    minimum-idle: 5
+    connection-timeout: 30000
+
+pets:
+  default-scale: 0.7
+  max-level: 50
+  save-interval-ticks: 6000 # 5 minutes periodic auto-save
+
+leveling:
+  base-exp: 100
+  exp-multiplier: 1.25
+  survival-exp:
+    mob-kill: 25.0
+    ore-mining: 15.0
+    crop-harvest: 10.0
+    fishing: 20.0
+  treats:
+    exp-per-treat: 150.0
+    daily-max-treats: 5
+
+colosseum:
+  match-duration-seconds: 60
+  heal-cooldown-seconds: 10
+  skill-proc-chance: 0.20
+  arena:
+    world: "world"
+    pos1:
+      x: 0.0
+      y: 60.0
+      z: 0.0
+    pos2:
+      x: 30.0
+      y: 80.0
+      z: 30.0
+    spawn1:
+      x: 5.5
+      y: 65.0
+      z: 15.5
+      yaw: 90.0
+      pitch: 0.0
+    spawn2:
+      x: 25.5
+      y: 65.0
+      z: 15.5
+      yaw: -90.0
+      pitch: 0.0

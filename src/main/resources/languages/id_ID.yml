@@ -1,0 +1,202 @@
+prefix: "<gray>[<aqua>ClarityPets</aqua>]</gray> "
+
+category:
+  combat: "Combat"
+  utility: "Utility"
+  support: "Support"
+
+mode:
+  passive: "Pasif"
+  defensive: "Defensif"
+  aggressive: "Agresif"
+  sentry: "Penjaga"
+  pocket: "Tersimpan"
+
+mode_desc:
+  passive: "Mengikuti Anda dengan damai. Tidak akan pernah menyerang monster atau pemain lain."
+  defensive: "Mengikuti Anda dengan setia. Membela Anda dengan menyerang balik target yang menyerang Anda atau pet."
+  aggressive: "Secara proaktif memburu monster liar di sekitar dan membela majikan dengan ganas."
+  sentry: "Menjaga pos/lokasi saat ini. Menyerang monster liar yang masuk area dan kembali ke pos setelah pertarungan."
+  pocket: "Tidak aktif dalam penyimpanan."
+
+pet:
+  nametag_format: "<white><name></white> <gray>[Lv.<level>]</gray>"
+
+dialog:
+  main:
+    title: "<white>Manajemen Pet</white>"
+    body: "<white>Pet Aktif: <active_name> (Level <active_level>)</white><newline><white>Status: <active_status></white><newline><white>Total Pet: <total_pets></white>"
+    none: "Tidak Ada"
+    status_stored: "Tersimpan"
+    btn_storage: "<white>Penyimpanan Pet</white>"
+    btn_colosseum: "<white>Colosseum</white>"
+    btn_guide: "<white>Panduan Pet</white>"
+    btn_skilltree: "<white>Skilltree & Skill</white>"
+    btn_backpack: "<white>Tas Ransel Pet</white>"
+    btn_summon: "<green>Summon</green>"
+    btn_despawn: "<red>Despawn</red>"
+    btn_close: "<white>Tutup</white>"
+
+  storage:
+    title: "<white>Penyimpanan Pet</white>"
+    body: "<white>Halaman <page> dari <total_pages> | Total Pet: <total_pets></white>"
+    btn_pet: "<white><name> Lv.<level></white>"
+    btn_prev: "<white>Halaman Sebelumnya</white>"
+    btn_next: "<white>Halaman Berikutnya</white>"
+    btn_back: "<white>Kembali</white>"
+
+  detail:
+    title: "<white>Detail Pet</white>"
+    body: "<white>Nama: <name></white><newline><white>Tipe: <type></white><newline><white>Kategori: <category></white><newline><white>Level: <level></white><newline><white>Pengalaman: <exp>/<max_exp></white><newline><white>Darah: <hp>/<max_hp></white><newline><white>Serangan: <atk></white><newline><white>Pertahanan: <def></white><newline><white>Kecepatan: <spd></white><newline><newline><white>Skilltree: <skilltree></white><newline><white>Poin Skill: <skill_points></white><newline><newline><white>Perilaku: <mode></white><newline><white><mode_desc></white><newline><newline><white>Skill Pasif: <passive_name></white><newline><white><passive_desc></white><newline><newline><white>Skill Aktif: <active_skill_name></white><newline><white><active_desc></white>"
+    btn_summon: "<green>Summon</green>"
+    btn_despawn: "<red>Despawn</red>"
+    btn_skilltree: "<white>Skilltree & Skill</white>"
+    btn_backpack: "<white>Tas Ransel Pet</white>"
+    btn_mode: "<white>Ganti Mode</white>"
+    btn_treat: "<white>Beri Makan Treat (Sisa <daily_left>)</white>"
+    btn_rename: "<white>Ganti Nama Pet</white>"
+    btn_guide: "<white>Panduan Pet</white>"
+    btn_release: "<red>Lepaskan Pet</red>"
+    btn_back: "<white>Kembali</white>"
+
+  mode:
+    title: "<white>Pilih Mode Perilaku</white>"
+    body: "<white>Mode Saat Ini: <current_mode></white><newline><white><current_mode_desc></white><newline><newline><white>Pasif: Mengikuti damai, tidak pernah menyerang.</white><newline><white>Defensif: Membela Anda dari penyerang.</white><newline><white>Agresif: Memburu monster sekitar dan membela Anda.</white><newline><white>Penjaga: Berjaga di lokasi saat ini.</white>"
+    btn_passive: "<white>Pasif</white>"
+    btn_defensive: "<white>Defensif</white>"
+    btn_aggressive: "<white>Agresif</white>"
+    btn_sentry: "<white>Penjaga</white>"
+    btn_back: "<white>Kembali</white>"
+
+  guide:
+    title: "<white>Panduan Pet</white>"
+    body: "<white>Selamat datang di Panduan ClarityPets.</white><newline><white>Pilih kategori di bawah untuk mempelajari mekanik pet, leveling, mode perilaku, dan duel Colosseum.</white>"
+    btn_basics: "<white>Dasar & Kontrol</white>"
+    btn_leveling: "<white>Leveling & Treats</white>"
+    btn_skills: "<white>Skill & Pohon Skill</white>"
+    btn_modes: "<white>Mode Perilaku</white>"
+    btn_colosseum: "<white>Arena Colosseum</white>"
+    btn_back: "<white>Kembali</white>"
+    basics_title: "<white>Panduan: Dasar</white>"
+    basics_body: "<white>Dasar Pet:</white><newline><white>Anda dapat mengoleksi banyak pet di penyimpanan, namun hanya 1 pet yang dapat di-summon pada satu waktu.</white><newline><newline><white>Summon & Penyimpanan:</white><newline><white>Gunakan menu Penyimpanan Pet untuk memeriksa detail dan memanggil pet ke dunia. Anda dapat mengembalikan pet ke penyimpanan kapan saja.</white><newline><newline><white>Kustomisasi:</white><newline><white>Anda dapat mengubah nama pet kapan saja melalui menu Detail Pet.</white>"
+    leveling_title: "<white>Panduan: Leveling</white>"
+    leveling_body: "<white>Mendapatkan EXP:</white><newline><white>Pet aktif mendapatkan EXP secara alami dari aktivitas survival:</white><newline><white>- Berburu monster: Mengalahkan monster memberikan EXP.</white><newline><white>- Menambang: Menambang ore memberikan bonus EXP.</white><newline><white>- Menebang kayu: Menebang pohon memberikan bonus EXP.</white><newline><white>- Memancing: Menangkap ikan memberikan bonus EXP.</white><newline><newline><white>Daily Treats:</white><newline><white>Beri makan pet treat setiap hari pada menu Detail Pet untuk tambahan EXP instan. Daily treat di-reset setiap hari.</white>"
+    skills_title: "<white>Panduan: Skill & Skilltree</white>"
+    skills_body: "<white>Skilltree & Skill yang Dapat Dilatih:</white><newline><white>Setiap pet memiliki Arketipe: Juggernaut (Combat), Guardian (Support), atau Scavenger (Utility).</white><newline><newline><white>Mendapatkan Poin Skill:</white><newline><white>Pet Anda mendapatkan 1 Poin Skill setiap kali naik level. Gunakan poin untuk meningkatkan kemampuan hingga Tier 5.</white><newline><newline><white>Arketipe & Skill:</white><newline><white>- Juggernaut: Damage, Life, Armor, Thorns, Bleed, Fire, Knockback, Earthquake Stomp.</white><newline><white>- Guardian: Life, Armor, Heal, Beacon, Aegis Shield, Provocation, Slow, Poison, Wither, Emergency Potion.</white><newline><white>- Scavenger: Pack Mule Backpack, Item Fetcher Pickup, Swift Trot Sprint, Ore Mining, Timber Lumberjack, Angler Fishing, Shadow Veil Camouflage.</white><newline><newline><white>Ganti Arketipe:</white><newline><white>Anda dapat bebas mengganti arketipe skilltree kapan saja. Pergantian arketipe akan mengembalikan seluruh poin yang telah diinvestasikan.</white>"
+    modes_title: "<white>Panduan: Mode Perilaku</white>"
+    modes_body: "<white>Mode Perilaku:</white><newline><white>Anda dapat mengatur cara bertindak pet kapan saja:</white><newline><newline><white>Mode Passive:</white><newline><white>Pet mengikuti Anda dengan tenang dan tidak akan pernah menyerang target.</white><newline><newline><white>Mode Defensive:</white><newline><white>Pet mengikuti Anda dan langsung menyerang balik entitas yang melukai Anda atau pet.</white><newline><newline><white>Mode Sentry:</white><newline><white>Pet berjaga di lokasi saat ini, menyerang monster berbahaya di sekitar dan kembali ke titik pos.</white>"
+    colosseum_title: "<white>Panduan: Colosseum</white>"
+    colosseum_body: "<white>Duel Otomatis Colosseum:</white><newline><white>Tantang pemain lain dalam duel otomatis di arena. Pet akan bertarung secara mandiri berdasarkan status, skill, dan taktik.</white><newline><newline><white>Keunggulan Kategori:</white><newline><white>- Pet Combat memberikan +20 persen damage ke pet Utility.</white><newline><white>- Pet Utility memberikan +20 persen damage ke pet Support.</white><newline><white>- Pet Support memberikan +20 persen damage ke pet Combat.</white><newline><newline><white>Stance Taktis:</white><newline><white>- Aggressive: +15 persen Attack, -10 persen Defense.</white><newline><white>- Defensive: +20 persen Defense, peluang counter lebih tinggi.</white><newline><white>- Balanced: Status bertarung seimbang standar.</white>"
+
+  rename:
+    title: "<white>Ganti Nama Pet</white>"
+    body: "<white>Ketik nama baru untuk pet Anda di bawah ini.</white>"
+    input_label: "<white>Nama Pet</white>"
+    btn_confirm: "<green>Konfirmasi</green>"
+    btn_cancel: "<red>Batal</red>"
+
+  release:
+    title: "<white>Konfirmasi Pelepasan</white>"
+    body: "<white>Apakah Anda yakin ingin melepaskan <name>? Tindakan ini tidak dapat dibatalkan.</white>"
+    btn_confirm: "<red>Konfirmasi Lepas</red>"
+    btn_cancel: "<white>Batal</white>"
+
+  colosseum:
+    title: "<white>Arena Colosseum</white>"
+    body: "<white>Rekor Duel: <wins> Menang, <losses> Kalah, <draws> Seri</white><newline><white>Kemenangan Beruntun: <streak></white><newline><white>Rating Arena: <rating></white><newline><white>Stance Taktik: <stance></white>"
+    btn_stance: "<white>Ganti Stance</white>"
+    btn_challenge: "<white>Tantang Pemain</white>"
+    btn_back: "<white>Kembali</white>"
+
+  stance:
+    title: "<white>Pilih Stance Taktik</white>"
+    body: "<white>Agresif: +15 persen Serangan, -10 persen Pertahanan</white><newline><white>Defensif: +20 persen Pertahanan, peluang counter lebih tinggi</white><newline><white>Seimbang: Statistik pertarungan normal seimbang</white>"
+    btn_aggressive: "<white>Agresif</white>"
+    btn_defensive: "<white>Defensif</white>"
+    btn_balanced: "<white>Seimbang</white>"
+    btn_back: "<white>Kembali</white>"
+
+  challenge:
+    title: "<white>Pilih Lawan</white>"
+    body: "<white>Pilih pemain online untuk ditantang dalam duel otomatis di Colosseum.</white>"
+    btn_player: "<white><player> (<pet_name> Lv.<pet_level>)</white>"
+    btn_back: "<white>Kembali</white>"
+
+  skilltree:
+    title: "<white>Skilltree - <name></white>"
+    body: "<white>Arketipe: <tree></white><newline><white><tree_desc></white><newline><newline><white>Poin Skill Tersedia: <points></white>"
+    btn_skill: "<white><skill> [Tier <tier>/<max>]</white>"
+    btn_switch: "<white>Ganti Skilltree</white>"
+    btn_reset: "<red>Reset Poin</red>"
+    btn_back: "<white>Kembali</white>"
+
+  skill_detail:
+    title: "<white>Skill: <skill></white>"
+    body: "<white>Kategori: <category></white><newline><white><desc></white><newline><newline><white>Tier Saat Ini: <tier>/<max></white><newline><white>Efek Saat Ini: <current_effect></white><newline><newline><white>Tier Berikutnya: <next_effect></white><newline><newline><white>Poin Skill Tersedia: <points></white>"
+    maxed: "Tingkat Maksimal Tercapai"
+    btn_upgrade: "<green>Tingkatkan (1 Poin)</green>"
+    btn_back: "<white>Kembali</white>"
+
+  switch_tree:
+    title: "<white>Ganti Skilltree</white>"
+    body: "<white>Arketipe Saat Ini: <current_tree></white><newline><newline><white>Mengganti arketipe akan mengembalikan seluruh poin skill dan membuka keahlian baru.</white>"
+    btn_tree: "<white><tree></white>"
+    btn_back: "<white>Kembali</white>"
+
+  reset_points:
+    title: "<white>Reset Poin Skill</white>"
+    body: "<white>Apakah Anda yakin ingin mengembalikan seluruh poin skill? Semua kemampuan akan di-reset ke Tier 0.</white>"
+    btn_confirm: "<red>Reset Semua Poin</red>"
+    btn_cancel: "<white>Batal</white>"
+
+message:
+  player_only: "<prefix><red>Perintah ini hanya dapat dijalankan oleh pemain.</red>"
+  no_permission: "<prefix><red>Anda tidak memiliki izin untuk menjalankan perintah ini.</red>"
+  player_not_found: "<prefix><red>Pemain tujuan tidak sedang online.</red>"
+  summon_success: "<prefix><green>Berhasil memanggil pet <white><name></white> (Level <level>)!</green>"
+  despawn_success: "<prefix><gray>Pet <white><name></white> telah dikembalikan ke penyimpanan.</gray>"
+  summon_usage: "<prefix><yellow>Penggunaan: /pet summon <pet_type></yellow>"
+  invalid_pet_type: "<prefix><red>Tipe pet tidak valid.</red>"
+  not_unlocked: "<prefix><red>Anda belum memiliki pet '<pet>'.</red>"
+  already_unlocked: "<prefix><yellow>Pemain tujuan sudah memiliki '<pet>'.</yellow>"
+  mode_changed: "<prefix><green>Mode perilaku pet diubah menjadi <white><mode></white>.</green>"
+  invalid_name: "<prefix><red>Nama pet tidak valid. Panjang harus antara 1 sampai 24 karakter.</red>"
+  rename_success: "<prefix><green>Berhasil mengubah nama pet menjadi <white><name></white>!</green>"
+  release_success: "<prefix><gray>Pet <white><name></white> telah dilepaskan.</gray>"
+  treat_daily_limit: "<prefix><red>Batas treat harian tercapai (<max>/<max>). Coba lagi besok!</red>"
+  treat_success: "<prefix><green>Memberi makan <white><name></white>! +<exp> EXP. (Sisa <left> treat hari ini)</green>"
+  level_up: "<prefix><green>Naik Level!</green> <white><name></white> sekarang <yellow>Level <level></yellow>!"
+  no_active_pet: "<prefix><red>Anda harus memiliki pet aktif yang sedang dipanggil untuk melakukan ini.</red>"
+  backpack_locked: "<prefix><red>Pet Anda belum membuka skill Pack Mule (Tas Ransel).</red>"
+  no_skill_points: "<prefix><red>Poin skill Anda tidak mencukupi.</red>"
+  skilltree_switched: "<prefix><green>Skilltree diubah menjadi <white><tree></white>! Semua poin skill dikembalikan.</green>"
+  points_reset: "<prefix><green>Semua poin skill pet berhasil direset dan dikembalikan!</green>"
+  invalid_points: "<prefix><red>Jumlah poin tidak valid.</red>"
+  admin_addpoints_usage: "<prefix><yellow>Penggunaan: /petadmin addpoints <player> <pet_type> <points></yellow>"
+  admin_addpoints_success: "<prefix><green>Menambahkan <white><points></white> poin skill ke <white><pet></white> milik <white><player></white>!</green>"
+  admin_resetpoints_usage: "<prefix><yellow>Penggunaan: /petadmin resetpoints <player> <pet_type></yellow>"
+  admin_resetpoints_success: "<prefix><green>Mereset poin skill untuk <white><pet></white> milik <white><player></white>!</green>"
+  duel_target_no_pet: "<prefix><red><target> tidak memiliki pet aktif yang sedang dipanggil.</red>"
+  duel_arena_busy: "<prefix><red>Arena Colosseum sedang digunakan untuk duel lain.</red>"
+  duel_arena_not_configured: "<prefix><red>Arena Colosseum belum disetel oleh admin.</red>"
+  duel_challenge_sent: "<prefix><green>Tantangan duel Colosseum telah dikirim ke <white><target></white>!</green>"
+  duel_challenge_received: "<prefix><yellow><challenger></yellow> menantang Anda duel di Colosseum! Ketik <aqua>/pet duel accept <challenger></aqua> untuk menerima."
+  duel_challenge_declined: "<prefix><gray><target> menolak tantangan duel Anda.</gray>"
+  duel_accept_usage: "<prefix><yellow>Penggunaan: /pet duel accept <player></yellow>"
+  duel_start: "<prefix><gold>Duel Colosseum Dimulai!</gold> <white><opponent></white> (<pet2>) vs Anda (<pet1>)!"
+  duel_draw: "<prefix><yellow>Pertandingan Colosseum berakhir SERI!</yellow>"
+  duel_victory: "<prefix><green>Hasil Colosseum:</green> <gold><winner></gold> mengalahkan <gray><loser></gray>!"
+  admin_help: "<white>=== Perintah Admin ClarityPets ===</white><newline><yellow>/petadmin give <player> <pet_type> [level]</yellow><newline><yellow>/petadmin remove <player> <pet_type></yellow><newline><yellow>/petadmin setlevel <player> <pet_type> <level></yellow><newline><yellow>/petadmin resetdailytreats <player></yellow><newline><yellow>/petadmin setarena <pos1|pos2|spawn1|spawn2></yellow><newline><yellow>/petadmin reload</yellow>"
+  admin_reload_success: "<prefix><green>Konfigurasi dan berkas bahasa berhasil dimuat ulang.</green>"
+  admin_setarena_usage: "<prefix><yellow>Penggunaan: /petadmin setarena <pos1|pos2|spawn1|spawn2></yellow>"
+  admin_arena_set: "<prefix><green>Berhasil mengatur titik arena Colosseum: <white><point></white>!</green>"
+  admin_give_usage: "<prefix><yellow>Penggunaan: /petadmin give <player> <pet_type> [level]</yellow>"
+  admin_give_success: "<prefix><green>Memberikan pet <white><pet></white> (Level <level>) kepada <white><player></white>!</green>"
+  admin_given_notice: "<prefix><green>Anda menerima pet <white><pet></white> (Level <level>) dari admin!</green>"
+  admin_remove_usage: "<prefix><yellow>Penggunaan: /petadmin remove <player> <pet_type></yellow>"
+  admin_remove_success: "<prefix><green>Menghapus pet <white><pet></white> dari <white><player></white>!</green>"
+  admin_setlevel_usage: "<prefix><yellow>Penggunaan: /petadmin setlevel <player> <pet_type> <level></yellow>"
+  invalid_level: "<prefix><red>Level yang ditentukan tidak valid.</red>"
+  admin_setlevel_success: "<prefix><green>Mengatur level pet <white><pet></white> milik <white><player></white> ke <white><level></white>!</green>"
+  admin_reset_treats_usage: "<prefix><yellow>Penggunaan: /petadmin resetdailytreats <player></yellow>"
+  admin_reset_treats_success: "<prefix><green>Mereset batas treat harian untuk <white><player></white>!</green>"

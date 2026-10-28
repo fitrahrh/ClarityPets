@@ -1,0 +1,199 @@
+prefix: "<gray>[<aqua>ClarityPets</aqua>]</gray> "
+
+category:
+  combat: "Боевой"
+  utility: "Утилитарный"
+  support: "Поддержка"
+
+mode:
+  passive: "Пассивный"
+  defensive: "Защитный"
+  sentry: "Часовой"
+  pocket: "В хранилище"
+
+mode_desc:
+  passive: "Мирно следует за хозяином и никогда никого не атакует."
+  defensive: "Верно следует рядом и контратакует любого, кто нападает на вас или питомца."
+  sentry: "Охраняет текущую позицию и атакует враждебных мобов в радиусе охраны."
+  pocket: "Неактивен в хранилище."
+
+pet:
+  nametag_format: "<white><name></white> <gray>[Ур.<level>]</gray>"
+
+dialog:
+  main:
+    title: "<white>Управление Питомцами</white>"
+    body: "<white>Активный Питомец: <active_name> (Уровень <active_level>)</white><newline><white>Статус: <active_status></white><newline><white>Всего Питомцев: <total_pets></white>"
+    none: "Нет"
+    status_stored: "В хранилище"
+    btn_storage: "<white>Хранилище</white>"
+    btn_colosseum: "<white>Колизей</white>"
+    btn_guide: "<white>Справочник Питомцев</white>"
+    btn_skilltree: "<white>Древо Навыков</white>"
+    btn_backpack: "<white>Рюкзак Питомца</white>"
+    btn_summon: "<green>Призвать</green>"
+    btn_despawn: "<red>Отозвать</red>"
+    btn_close: "<white>Закрыть</white>"
+
+  storage:
+    title: "<white>Хранилище Питомцев</white>"
+    body: "<white>Страница <page> из <total_pages> | Всего Питомцев: <total_pets></white>"
+    btn_pet: "<white><name> Ур.<level></white>"
+    btn_prev: "<white>Предыдущая</white>"
+    btn_next: "<white>Следующая</white>"
+    btn_back: "<white>Назад</white>"
+
+  detail:
+    title: "<white>Информация о Питомце</white>"
+    body: "<white>Имя: <name></white><newline><white>Тип: <type></white><newline><white>Категория: <category></white><newline><white>Уровень: <level></white><newline><white>Опыт: <exp>/<max_exp></white><newline><white>Здоровье: <hp>/<max_hp></white><newline><white>Атака: <atk></white><newline><white>Защита: <def></white><newline><white>Скорость: <spd></white><newline><newline><white>Архетип: <skilltree></white><newline><white>Очки Навыков: <skill_points></white><newline><newline><white>Поведение: <mode></white><newline><white><mode_desc></white><newline><newline><white>Пассивный Навык: <passive_name></white><newline><white><passive_desc></white><newline><newline><white>Активный Навык: <active_skill_name></white><newline><white><active_desc></white>"
+    btn_summon: "<green>Призвать</green>"
+    btn_despawn: "<red>Отозвать</red>"
+    btn_skilltree: "<white>Древо Навыков</white>"
+    btn_backpack: "<white>Рюкзак Питомца</white>"
+    btn_mode: "<white>Сменить Режим</white>"
+    btn_treat: "<white>Дать Лакомство (Осталось <daily_left>)</white>"
+    btn_rename: "<white>Переименовать</white>"
+    btn_guide: "<white>Справочник Питомцев</white>"
+    btn_release: "<red>Отпустить</red>"
+    btn_back: "<white>Назад</white>"
+
+  mode:
+    title: "<white>Выбор Режима Поведения</white>"
+    body: "<white>Текущий Режим: <current_mode></white><newline><white><current_mode_desc></white><newline><newline><white>Пассивный: Мирно следует, не атакует.</white><newline><white>Защитный: Защищает вас от врагов.</white><newline><white>Часовой: Охраняет текущую позицию.</white>"
+    btn_passive: "<white>Пассивный</white>"
+    btn_defensive: "<white>Защитный</white>"
+    btn_sentry: "<white>Часовой</white>"
+    btn_back: "<white>Назад</white>"
+
+  guide:
+    title: "<white>Справочник Питомцев</white>"
+    body: "<white>Добро пожаловать в Справочник ClarityPets.</white><newline><white>Выберите раздел ниже для изучения механик, прокачки и арены Колизея.</white>"
+    btn_basics: "<white>Основы и Управление</white>"
+    btn_leveling: "<white>Уровни и Лакомства</white>"
+    btn_skills: "<white>Навыки и Древо</white>"
+    btn_modes: "<white>Режимы Поведения</white>"
+    btn_colosseum: "<white>Арена Колизея</white>"
+    btn_back: "<white>Назад</white>"
+    basics_title: "<white>Справочник: Основы</white>"
+    basics_body: "<white>Основы системы:</white><newline><white>Вы можете хранить множество питомцев, но призван может быть только 1 активный питомец одновременно.</white><newline><newline><white>Призыв и Хранение:</white><newline><white>Используйте меню хранилища для вызова питомца в мир или возврата его в хранилище в любой момент.</white><newline><newline><white>Имя:</white><newline><white>Вы можете переименовать питомца в любой момент в меню информации.</white>"
+    leveling_title: "<white>Справочник: Прокачка</white>"
+    leveling_body: "<white>Получение опыта:</white><newline><white>Активный питомец получает опыт за выживание:</white><newline><white>- Охота: Убийство монстров дает опыт.</white><newline><white>- Добыча руды: Добыча руды дает дополнительный опыт.</white><newline><white>- Рубка леса: Рубка деревьев дает опыт.</white><newline><white>- Рыбалка: Ловля рыбы дает опыт.</white><newline><newline><white>Лакомства:</white><newline><white>Кормите питомца ежедневными лакомствами в меню для мгновенной прибавки опыта.</white>"
+    skills_title: "<white>Справочник: Навыки</white>"
+    skills_body: "<white>Древо Навыков и Улучшения:</white><newline><white>Каждый питомец относится к определенному архетипу: Juggernaut (Боевой), Guardian (Защитный), Scavenger (Утилитарный).</white><newline><newline><white>Очки Навыков:</white><newline><white>За каждый уровень питомец получает 1 очко навыков. Улучшайте способности до 5 ранга.</white><newline><newline><white>Смена Архетипа:</white><newline><white>Вы можете сменить архетип древа в любой момент. Все вложенные очки будут полностью возвращены.</white>"
+    modes_title: "<white>Справочник: Режимы</white>"
+    modes_body: "<white>Режимы поведения:</white><newline><white>Вы можете сменить поведение питомца в любой момент:</white><newline><newline><white>Пассивный режим:</white><newline><white>Питомец следует рядом и никогда не вступает в бой.</white><newline><newline><white>Защитный режим:</white><newline><white>Питомец следует за вами и атакует любого, кто нападает на вас или на него.</white><newline><newline><white>Режим часового:</white><newline><white>Питомец держит текущую позицию и охраняет периметр от мобов.</white>"
+    colosseum_title: "<white>Справочник: Колизей</white>"
+    colosseum_body: "<white>Автоматические дуэли в Колизее:</white><newline><white>Бросайте вызов игрокам. Питомцы сражаются на арене автономно.</white><newline><newline><white>Преимущество категорий:</white><newline><white>- Combat наносит +20 процентов урона Utility.</white><newline><white>- Utility наносит +20 процентов урона Support.</white><newline><white>- Support наносит +20 процентов урона Combat.</white><newline><newline><white>Боевые стойки:</white><newline><white>- Aggressive: +15 процентов атаки, -10 процентов защиты.</white><newline><white>- Defensive: +20 процентов защиты, выше шанс контратаки.</white><newline><white>- Balanced: Сбалансированные боевые характеристики.</white>"
+
+  rename:
+    title: "<white>Переименование Питомца</white>"
+    body: "<white>Введите новое имя для вашего питомца ниже.</white>"
+    input_label: "<white>Имя Питомца</white>"
+    btn_confirm: "<green>Подтвердить</green>"
+    btn_cancel: "<red>Отмена</red>"
+
+  release:
+    title: "<white>Подтверждение Отпускания</white>"
+    body: "<white>Вы уверены, что хотите отпустить <name>? Это действие нельзя отменить.</white>"
+    btn_confirm: "<red>Отпустить</red>"
+    btn_cancel: "<white>Отмена</white>"
+
+  colosseum:
+    title: "<white>Арена Колизея</white>"
+    body: "<white>Статистика: <wins> Побед, <losses> Поражений, <draws> Ничьих</white><newline><white>Серия Побед: <streak></white><newline><white>Рейтинг: <rating></white><newline><white>Боевая Стойка: <stance></white>"
+    btn_stance: "<white>Сменить Стойку</white>"
+    btn_challenge: "<white>Бросить Вызов</white>"
+    btn_back: "<white>Назад</white>"
+
+  stance:
+    title: "<white>Выбор Боевой Стойки</white>"
+    body: "<white>Агрессивная: +15 процентов Атаки, -10 процентов Защиты</white><newline><white>Защитная: +20 процентов Защиты, повышенный шанс контратаки</white><newline><white>Сбалансированная: Стандартные сбалансированные параметры</white>"
+    btn_aggressive: "<white>Агрессивная</white>"
+    btn_defensive: "<white>Защитная</white>"
+    btn_balanced: "<white>Сбалансированная</white>"
+    btn_back: "<white>Назад</white>"
+
+  challenge:
+    title: "<white>Выбор Соперника</white>"
+    body: "<white>Выберите игрока в сети для автоматической дуэли в Колизее.</white>"
+    btn_player: "<white><player> (<pet_name> Ур.<pet_level>)</white>"
+    btn_back: "<white>Назад</white>"
+
+  skilltree:
+    title: "<white>Древо Навыков - <name></white>"
+    body: "<white>Архетип: <tree></white><newline><white><tree_desc></white><newline><newline><white>Доступно Очков: <points></white>"
+    btn_skill: "<white><skill> [Ранг <tier>/<max>]</white>"
+    btn_switch: "<white>Сменить Древо</white>"
+    btn_reset: "<red>Сброс Очков</red>"
+    btn_back: "<white>Назад</white>"
+
+  skill_detail:
+    title: "<white>Навык: <skill></white>"
+    body: "<white>Категория: <category></white><newline><white><desc></white><newline><newline><white>Текущий Ранг: <tier>/<max></white><newline><white>Текущий Эффект: <current_effect></white><newline><newline><white>Следующий Ранг: <next_effect></white><newline><newline><white>Доступно Очков: <points></white>"
+    maxed: "Достигнут Максимальный Ранг"
+    btn_upgrade: "<green>Улучшить (1 Очко)</green>"
+    btn_back: "<white>Назад</white>"
+
+  switch_tree:
+    title: "<white>Смена Архетипа Древа</white>"
+    body: "<white>Текущий Архетип: <current_tree></white><newline><newline><white>Смена архетипа вернет все потраченные очки навыков и откроет новый набор способностей.</white>"
+    btn_tree: "<white><tree></white>"
+    btn_back: "<white>Назад</white>"
+
+  reset_points:
+    title: "<white>Сброс Очков Навыков</white>"
+    body: "<white>Вы уверены, что хотите сбросить все очки? Все способности вернутся на 0 ранг.</white>"
+    btn_confirm: "<red>Сбросить Все Очки</red>"
+    btn_cancel: "<white>Отмена</white>"
+
+message:
+  player_only: "<prefix><red>Эту команду могут выполнять только игроки.</red>"
+  no_permission: "<prefix><red>У вас нет прав на выполнение этой команды.</red>"
+  player_not_found: "<prefix><red>Игрок не найден в сети.</red>"
+  summon_success: "<prefix><green>Питомец <white><name></white> (Уровень <level>) призван!</green>"
+  despawn_success: "<prefix><gray>Питомец <white><name></white> отозван в хранилище.</gray>"
+  summon_usage: "<prefix><yellow>Использование: /pet summon <тип_питомца></yellow>"
+  invalid_pet_type: "<prefix><red>Указан неверный тип питомца.</red>"
+  not_unlocked: "<prefix><red>У вас нет питомца '<pet>'.</red>"
+  already_unlocked: "<prefix><yellow>У игрока уже есть питомец '<pet>'.</yellow>"
+  mode_changed: "<prefix><green>Режим поведения изменен на <white><mode></white>.</green>"
+  invalid_name: "<prefix><red>Неверное имя. Длина должна быть от 1 до 24 символов.</red>"
+  rename_success: "<prefix><green>Питомец успешно переименован в <white><name></white>!</green>"
+  release_success: "<prefix><gray>Питомец <white><name></white> был отпущен.</gray>"
+  treat_daily_limit: "<prefix><red>Достигнут дневной лимит лакомств (<max>/<max>). Приходите завтра!</red>"
+  treat_success: "<prefix><green>Вы покормили <white><name></white>! +<exp> Опыта. (Осталось <left> на сегодня)</green>"
+  level_up: "<prefix><green>Повышение Уровня!</green> <white><name></white> теперь <yellow>Уровень <level></yellow>!"
+  no_active_pet: "<prefix><red>Для этого действия требуется призванный питомец.</red>"
+  backpack_locked: "<prefix><red>Ваш питомец еще не открыл навык Рюкзака.</red>"
+  no_skill_points: "<prefix><red>У вас недостаточно очков навыков.</red>"
+  skilltree_switched: "<prefix><green>Архетип изменен на <white><tree></white>! Все очки навыков возвращены.</green>"
+  points_reset: "<prefix><green>Все очки навыков питомца сброшены и возвращены!</green>"
+  invalid_points: "<prefix><red>Указано неверное количество очков.</red>"
+  admin_addpoints_usage: "<prefix><yellow>Использование: /petadmin addpoints <игрок> <тип_питомца> <очки></yellow>"
+  admin_addpoints_success: "<prefix><green>Добавлено <white><points></white> очков навыков питомцу <white><pet></white> игрока <white><player></white>!</green>"
+  admin_resetpoints_usage: "<prefix><yellow>Использование: /petadmin resetpoints <игрок> <тип_питомца></yellow>"
+  admin_resetpoints_success: "<prefix><green>Очки навыков питомца <white><pet></white> игрока <white><player></white> сброшены!</green>"
+  duel_target_no_pet: "<prefix><red>У <target> нет призванного питомца.</red>"
+  duel_arena_busy: "<prefix><red>Арена Колизея сейчас занята другой дуэлью.</red>"
+  duel_arena_not_configured: "<prefix><red>Арена Колизея еще не настроена администратором.</red>"
+  duel_challenge_sent: "<prefix><green>Вызов на дуэль в Колизее отправлен игроку <white><target></white>!</green>"
+  duel_challenge_received: "<prefix><yellow><challenger></yellow> вызывает вас на дуэль в Колизее! Введите <aqua>/pet duel accept <challenger></aqua> для согласия."
+  duel_challenge_declined: "<prefix><gray><target> отклонил ваш вызов на дуэль.</gray>"
+  duel_accept_usage: "<prefix><yellow>Использование: /pet duel accept <игрок></yellow>"
+  duel_start: "<prefix><gold>Дуэль в Колизее началась!</gold> <white><opponent></white> (<pet2>) против Вас (<pet1>)!"
+  duel_draw: "<prefix><yellow>Дуэль в Колизее завершилась ВНИЧЬЮ!</yellow>"
+  duel_victory: "<prefix><green>Результат Колизея:</green> <gold><winner></gold> победил <gray><loser></gray>!"
+  admin_help: "<white>=== Команды Администратора ClarityPets ===</white><newline><yellow>/petadmin give <игрок> <тип> [уровень]</yellow><newline><yellow>/petadmin remove <игрок> <тип></yellow><newline><yellow>/petadmin setlevel <игрок> <тип> <уровень></yellow><newline><yellow>/petadmin resetdailytreats <игрок></yellow><newline><yellow>/petadmin setarena <pos1|pos2|spawn1|spawn2></yellow><newline><yellow>/petadmin reload</yellow>"
+  admin_reload_success: "<prefix><green>Файлы конфигурации и языков успешно перезагружены.</green>"
+  admin_setarena_usage: "<prefix><yellow>Использование: /petadmin setarena <pos1|pos2|spawn1|spawn2></yellow>"
+  admin_arena_set: "<prefix><green>Точка арены Колизея установлена: <white><point></white>!</green>"
+  admin_give_usage: "<prefix><yellow>Использование: /petadmin give <игрок> <тип> [уровень]</yellow>"
+  admin_give_success: "<prefix><green>Питомец <white><pet></white> (Уровень <level>) выдан игроку <white><player></white>!</green>"
+  admin_given_notice: "<prefix><green>Вы получили питомца <white><pet></white> (Уровень <level>) от администратора!</green>"
+  admin_remove_usage: "<prefix><yellow>Использование: /petadmin remove <игрок> <тип></yellow>"
+  admin_remove_success: "<prefix><green>Питомец <white><pet></white> удален у игрока <white><player></white>!</green>"
+  admin_setlevel_usage: "<prefix><yellow>Использование: /petadmin setlevel <игрок> <тип> <уровень></yellow>"
+  invalid_level: "<prefix><red>Указан неверный уровень.</red>"
+  admin_setlevel_success: "<prefix><green>Уровень питомца <white><pet></white> у игрока <white><player></white> установлен на <white><level></white>!</green>"
+  admin_reset_treats_usage: "<prefix><yellow>Использование: /petadmin resetdailytreats <игрок></yellow>"
+  admin_reset_treats_success: "<prefix><green>Лимит лакомств для <white><player></white> сброшен!</green>"

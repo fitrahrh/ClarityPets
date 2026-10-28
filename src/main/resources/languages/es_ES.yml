@@ -1,0 +1,202 @@
+prefix: "<gray>[<aqua>ClarityPets</aqua>]</gray> "
+
+category:
+  combat: "Combate"
+  utility: "Utilidad"
+  support: "Soporte"
+
+mode:
+  passive: "Pasivo"
+  defensive: "Defensivo"
+  aggressive: "Agresivo"
+  sentry: "Centinela"
+  pocket: "Guardado"
+
+mode_desc:
+  passive: "Te sigue pacificamente, nunca ataca a ninguna entidad."
+  defensive: "Te sigue de cerca y contraataca a los enemigos que te ataquen."
+  aggressive: "Caza proactivamente monstruos cercanos y defiende al amo agresivamente."
+  sentry: "Vigila la posicion actual atacando a los monstruos cercanos."
+  pocket: "Inactiva en almacenamiento."
+
+pet:
+  nametag_format: "<white><name></white> <gray>[Nv.<level>]</gray>"
+
+dialog:
+  main:
+    title: "<white>Gestion de Mascotas</white>"
+    body: "<white>Mascota Activa: <active_name> (Nivel <active_level>)</white><newline><white>Estado: <active_status></white><newline><white>Total de Mascotas: <total_pets></white>"
+    none: "Ninguna"
+    status_stored: "Guardada"
+    btn_storage: "<white>Almacenamiento</white>"
+    btn_colosseum: "<white>Coliseo</white>"
+    btn_guide: "<white>Guia de Mascotas</white>"
+    btn_skilltree: "<white>Arbol de Habilidades</white>"
+    btn_backpack: "<white>Mochila de Mascota</white>"
+    btn_summon: "<green>Invocar</green>"
+    btn_despawn: "<red>Desinvocar</red>"
+    btn_close: "<white>Cerrar</white>"
+
+  storage:
+    title: "<white>Almacenamiento de Mascotas</white>"
+    body: "<white>Pagina <page> de <total_pages> | Total de Mascotas: <total_pets></white>"
+    btn_pet: "<white><name> Nv.<level></white>"
+    btn_prev: "<white>Pagina Anterior</white>"
+    btn_next: "<white>Pagina Siguiente</white>"
+    btn_back: "<white>Volver</white>"
+
+  detail:
+    title: "<white>Detalles de la Mascota</white>"
+    body: "<white>Nombre: <name></white><newline><white>Tipo: <type></white><newline><white>Categoria: <category></white><newline><white>Nivel: <level></white><newline><white>Experiencia: <exp>/<max_exp></white><newline><white>Vida: <hp>/<max_hp></white><newline><white>Ataque: <atk></white><newline><white>Defensa: <def></white><newline><white>Velocidad: <spd></white><newline><newline><white>Arbol: <skilltree></white><newline><white>Puntos de Habilidad: <skill_points></white><newline><newline><white>Comportamiento: <mode></white><newline><white><mode_desc></white><newline><newline><white>Habilidad Pasiva: <passive_name></white><newline><white><passive_desc></white><newline><newline><white>Habilidad Activa: <active_skill_name></white><newline><white><active_desc></white>"
+    btn_summon: "<green>Invocar</green>"
+    btn_despawn: "<red>Desinvocar</red>"
+    btn_skilltree: "<white>Arbol de Habilidades</white>"
+    btn_backpack: "<white>Mochila de Mascota</white>"
+    btn_mode: "<white>Cambiar Modo</white>"
+    btn_treat: "<white>Alimentar Bocadillo (<daily_left> restantes)</white>"
+    btn_rename: "<white>Renombrar Mascota</white>"
+    btn_guide: "<white>Guia de Mascotas</white>"
+    btn_release: "<red>Liberar Mascota</red>"
+    btn_back: "<white>Volver</white>"
+
+  mode:
+    title: "<white>Seleccionar Modo de Comportamiento</white>"
+    body: "<white>Modo Actual: <current_mode></white><newline><white><current_mode_desc></white><newline><newline><white>Pasivo: Sigue pacificamente, nunca ataca.</white><newline><white>Defensivo: Te defiende contra atacantes.</white><newline><white>Agresivo: Caza monstruos y te defiende con fiereza.</white><newline><white>Centinela: Vigila la posicion actual.</white>"
+    btn_passive: "<white>Pasivo</white>"
+    btn_defensive: "<white>Defensivo</white>"
+    btn_aggressive: "<white>Agresivo</white>"
+    btn_sentry: "<white>Centinela</white>"
+    btn_back: "<white>Volver</white>"
+
+  guide:
+    title: "<white>Guia de Mascotas</white>"
+    body: "<white>Bienvenido a la Guia de ClarityPets.</white><newline><white>Selecciona una categoria para conocer las mecanicas, el entrenamiento y el Coliseo.</white>"
+    btn_basics: "<white>Basicos y Controles</white>"
+    btn_leveling: "<white>Niveles y Bocadillos</white>"
+    btn_skills: "<white>Habilidades y Arboles</white>"
+    btn_modes: "<white>Modos de Comportamiento</white>"
+    btn_colosseum: "<white>Arena del Coliseo</white>"
+    btn_back: "<white>Volver</white>"
+    basics_title: "<white>Guia: Basicos</white>"
+    basics_body: "<white>Conceptos Basicos:</white><newline><white>Puedes tener varias mascotas en almacenamiento, pero solo 1 invocada a la vez.</white><newline><newline><white>Invocacion:</white><newline><white>Usa el menu de Almacenamiento para invocar tu companero al mundo o guardarlo cuando quieras.</white><newline><newline><white>Personalizacion:</white><newline><white>Puedes cambiar el nombre de tu mascota en cualquier momento desde el menu de Detalles.</white>"
+    leveling_title: "<white>Guia: Niveles</white>"
+    leveling_body: "<white>Obtener Experiencia:</white><newline><white>Tu mascota gana EXP mediante actividades de supervivencia:</white><newline><white>- Cazar monstruos: Derrotar monstruos otorga EXP.</white><newline><white>- Mineria: Picar minerales otorga EXP.</white><newline><white>- Talar madera: Talar arboles otorga EXP.</white><newline><white>- Pesca: Pescar otorga EXP.</white><newline><newline><white>Bocadillos Diarios:</white><newline><white>Alimenta a tu mascota con bocadillos diarios en el menu de Detalles para obtener EXP rapida.</white>"
+    skills_title: "<white>Guia: Habilidades y Arboles</white>"
+    skills_body: "<white>Arboles de Habilidades y Entrenables:</white><newline><white>Cada mascota pertenece a un Arquetipo: Juggernaut (Combate), Guardian (Soporte) o Scavenger (Utilidad).</white><newline><newline><white>Puntos de Habilidad:</white><newline><white>Tu mascota gana 1 Punto de Habilidad cada vez que sube de nivel. Mejora habilidades hasta Nivel 5.</white><newline><newline><white>Arquetipos y Habilidades:</white><newline><white>- Juggernaut: Damage, Life, Armor, Thorns, Bleed, Fire, Knockback, Earthquake Stomp.</white><newline><white>- Guardian: Life, Armor, Heal, Beacon, Aegis Shield, Provocation, Slow, Poison, Wither, Emergency Potion.</white><newline><white>- Scavenger: Pack Mule Mochila, Item Fetcher Recoleccion, Swift Trot Velocidad, Mineria, Tala de Madera, Pesca, Camuflaje.</white><newline><newline><white>Cambio de Arbol:</white><newline><white>Puedes cambiar libremente de arquetipo en cualquier momento; se reembolsan todos los puntos gastados.</white>"
+    modes_title: "<white>Guia: Modos</white>"
+    modes_body: "<white>Modos de Comportamiento:</white><newline><white>Puedes cambiar el comportamiento de tu mascota en cualquier momento:</white><newline><newline><white>Modo Pasivo:</white><newline><white>Tu mascota te sigue tranquilamente sin atacar.</white><newline><newline><white>Modo Defensivo:</white><newline><white>Tu mascota contraataca a cualquier criatura que te dane a ti o a ella.</white><newline><newline><white>Modo Centinela:</white><newline><white>Tu mascota vigila su posicion actual atacando a intrusos hostiles.</white>"
+    colosseum_title: "<white>Guia: Coliseo</white>"
+    colosseum_body: "<white>Duelos Automaticos en el Coliseo:</white><newline><white>Desafia a otros jugadores. Las mascotas luchan solas segun sus atributos y habilidades.</white><newline><newline><white>Ventajas de Categoria:</white><newline><white>- Mascotas de Combate hacen +20 por ciento de dano a Utilidad.</white><newline><white>- Mascotas de Utilidad hacen +20 por ciento de dano a Soporte.</white><newline><white>- Mascotas de Soporte hacen +20 por ciento de dano a Combate.</white><newline><newline><white>Posturas Tacticas:</white><newline><white>- Agresiva: +15 por ciento Ataque, -10 por ciento Defensa.</white><newline><white>- Defensiva: +20 por ciento Defensa, mayor contraataque.</white><newline><white>- Equilibrada: Atributos equilibrados estandar.</white>"
+
+  rename:
+    title: "<white>Renombrar Mascota</white>"
+    body: "<white>Introduce un nuevo nombre para tu mascota abajo.</white>"
+    input_label: "<white>Nombre de la Mascota</white>"
+    btn_confirm: "<green>Confirmar</green>"
+    btn_cancel: "<red>Cancelar</red>"
+
+  release:
+    title: "<white>Confirmar Liberacion</white>"
+    body: "<white>Estas seguro de que deseas liberar a <name>? Esta accion no se puede deshacer.</white>"
+    btn_confirm: "<red>Confirmar Liberacion</red>"
+    btn_cancel: "<white>Cancelar</white>"
+
+  colosseum:
+    title: "<white>Arena del Coliseo</white>"
+    body: "<white>Historial de Duelos: <wins> Victorias, <losses> Derrotas, <draws> Empates</white><newline><white>Racha de Victorias: <streak></white><newline><white>Puntuacion: <rating></white><newline><white>Postura Tactica: <stance></white>"
+    btn_stance: "<white>Cambiar Postura</white>"
+    btn_challenge: "<white>Desafiar Jugador</white>"
+    btn_back: "<white>Volver</white>"
+
+  stance:
+    title: "<white>Seleccionar Postura Tactica</white>"
+    body: "<white>Agresivo: +15 por ciento de Ataque, -10 por ciento de Defensa</white><newline><white>Defensivo: +20 por ciento de Defensa, mayor tasa de contraataque</white><newline><white>Equilibrado: Estadisticas de combate normales y equilibradas</white>"
+    btn_aggressive: "<white>Agresivo</white>"
+    btn_defensive: "<white>Defensivo</white>"
+    btn_balanced: "<white>Equilibrado</white>"
+    btn_back: "<white>Volver</white>"
+
+  challenge:
+    title: "<white>Seleccionar Oponente</white>"
+    body: "<white>Selecciona un jugador conectado para desafiarlo a un duelo automatico en el Coliseo.</white>"
+    btn_player: "<white><player> (<pet_name> Nv.<pet_level>)</white>"
+    btn_back: "<white>Volver</white>"
+
+  skilltree:
+    title: "<white>Arbol de Habilidades - <name></white>"
+    body: "<white>Arquetipo: <tree></white><newline><white><tree_desc></white><newline><newline><white>Puntos Disponibles: <points></white>"
+    btn_skill: "<white><skill> [Nivel <tier>/<max>]</white>"
+    btn_switch: "<white>Cambiar Arbol</white>"
+    btn_reset: "<red>Reiniciar Puntos</red>"
+    btn_back: "<white>Volver</white>"
+
+  skill_detail:
+    title: "<white>Habilidad: <skill></white>"
+    body: "<white>Categoria: <category></white><newline><white><desc></white><newline><newline><white>Nivel Actual: <tier>/<max></white><newline><white>Efecto Actual: <current_effect></white><newline><newline><white>Siguiente Nivel: <next_effect></white><newline><newline><white>Puntos Disponibles: <points></white>"
+    maxed: "Nivel Maximo Alcanzado"
+    btn_upgrade: "<green>Mejorar (1 Punto)</green>"
+    btn_back: "<white>Volver</white>"
+
+  switch_tree:
+    title: "<white>Cambiar Arbol de Habilidades</white>"
+    body: "<white>Arquetipo Actual: <current_tree></white><newline><newline><white>Cambiar de arquetipo reembolsara todos los puntos gastados y desbloqueara un nuevo conjunto de habilidades.</white>"
+    btn_tree: "<white><tree></white>"
+    btn_back: "<white>Volver</white>"
+
+  reset_points:
+    title: "<white>Reiniciar Puntos de Habilidad</white>"
+    body: "<white>Estas seguro de que deseas reembolsar todos los puntos de habilidad? Todas las habilidades volveran a Nivel 0.</white>"
+    btn_confirm: "<red>Reiniciar Puntos</red>"
+    btn_cancel: "<white>Cancelar</white>"
+
+message:
+  player_only: "<prefix><red>Este comando solo puede ser ejecutado por jugadores.</red>"
+  no_permission: "<prefix><red>No tienes permiso para ejecutar este comando.</red>"
+  player_not_found: "<prefix><red>El jugador objetivo no esta conectado.</red>"
+  summon_success: "<prefix><green>Invocaste a tu mascota <white><name></white> (Nivel <level>)!</green>"
+  despawn_success: "<prefix><gray>Tu mascota <white><name></white> ha vuelto al almacenamiento.</gray>"
+  summon_usage: "<prefix><yellow>Uso: /pet summon <tipo_mascota></yellow>"
+  invalid_pet_type: "<prefix><red>Tipo de mascota no valido.</red>"
+  not_unlocked: "<prefix><red>No posees la mascota '<pet>'.</red>"
+  already_unlocked: "<prefix><yellow>El jugador objetivo ya posee '<pet>'.</yellow>"
+  mode_changed: "<prefix><green>Modo de comportamiento cambiado a <white><mode></white>.</green>"
+  invalid_name: "<prefix><red>Nombre de mascota no valido. Debe tener entre 1 y 24 caracteres.</red>"
+  rename_success: "<prefix><green>Mascota renombrada correctamente a <white><name></white>!</green>"
+  release_success: "<prefix><gray>La mascota <white><name></white> ha sido liberada.</gray>"
+  treat_daily_limit: "<prefix><red>Limite diario alcanzado (<max>/<max>). Vuelve manana!</red>"
+  treat_success: "<prefix><green>Alimentaste a <white><name></white>! +<exp> EXP. (<left> restantes hoy)</green>"
+  level_up: "<prefix><green>Subida de Nivel!</green> <white><name></white> ahora es <yellow>Nivel <level></yellow>!"
+  no_active_pet: "<prefix><red>Necesitas una mascota invocada activa para hacer esto.</red>"
+  backpack_locked: "<prefix><red>Tu mascota no ha desbloqueado la habilidad de Mochila aun.</red>"
+  no_skill_points: "<prefix><red>No tienes suficientes puntos de habilidad.</red>"
+  skilltree_switched: "<prefix><green>Arbol cambiado a <white><tree></white>! Todos los puntos han sido reembolsados.</green>"
+  points_reset: "<prefix><green>Todos los puntos de habilidad de la mascota se han restablecido y reembolsado!</green>"
+  invalid_points: "<prefix><red>Cantidad de puntos no valida.</red>"
+  admin_addpoints_usage: "<prefix><yellow>Uso: /petadmin addpoints <jugador> <tipo_mascota> <puntos></yellow>"
+  admin_addpoints_success: "<prefix><green>Anadidos <white><points></white> puntos de habilidad a <white><pet></white> de <white><player></white>!</green>"
+  admin_resetpoints_usage: "<prefix><yellow>Uso: /petadmin resetpoints <jugador> <tipo_mascota></yellow>"
+  admin_resetpoints_success: "<prefix><green>Puntos de habilidad reiniciados para <white><pet></white> de <white><player></white>!</green>"
+  duel_target_no_pet: "<prefix><red><target> no tiene una mascota activa invocada.</red>"
+  duel_arena_busy: "<prefix><red>La arena del Coliseo esta ocupada por otro duelo.</red>"
+  duel_arena_not_configured: "<prefix><red>La arena del Coliseo aun no ha sido configurada por un administrador.</red>"
+  duel_challenge_sent: "<prefix><green>Desafio de duelo del Coliseo enviado a <white><target></white>!</green>"
+  duel_challenge_received: "<prefix><yellow><challenger></yellow> te desafio a un duelo en el Coliseo! Escribe <aqua>/pet duel accept <challenger></aqua> para aceptar."
+  duel_challenge_declined: "<prefix><gray><target> rechazo tu desafio de duelo.</gray>"
+  duel_accept_usage: "<prefix><yellow>Uso: /pet duel accept <jugador></yellow>"
+  duel_start: "<prefix><gold>Duelo del Coliseo Iniciado!</gold> <white><opponent></white> (<pet2>) vs Tu (<pet1>)!"
+  duel_draw: "<prefix><yellow>El duelo del Coliseo termino en EMPATE!</yellow>"
+  duel_victory: "<prefix><green>Resultado del Coliseo:</green> <gold><winner></gold> vencio a <gray><loser></gray>!"
+  admin_help: "<white>=== Comandos de Admin ClarityPets ===</white><newline><yellow>/petadmin give <jugador> <mascota> [nivel]</yellow><newline><yellow>/petadmin remove <jugador> <mascota></yellow><newline><yellow>/petadmin setlevel <jugador> <mascota> <nivel></yellow><newline><yellow>/petadmin resetdailytreats <jugador></yellow><newline><yellow>/petadmin setarena <pos1|pos2|spawn1|spawn2></yellow><newline><yellow>/petadmin reload</yellow>"
+  admin_reload_success: "<prefix><green>Configuracion y archivos de idioma recargados correctamente.</green>"
+  admin_setarena_usage: "<prefix><yellow>Uso: /petadmin setarena <pos1|pos2|spawn1|spawn2></yellow>"
+  admin_arena_set: "<prefix><green>Punto de la arena del Coliseo establecido: <white><point></white>!</green>"
+  admin_give_usage: "<prefix><yellow>Uso: /petadmin give <jugador> <mascota> [nivel]</yellow>"
+  admin_give_success: "<prefix><green>Entregada la mascota <white><pet></white> (Nivel <level>) a <white><player></white>!</green>"
+  admin_given_notice: "<prefix><green>Recibiste la mascota <white><pet></white> (Nivel <level>) de un admin!</green>"
+  admin_remove_usage: "<prefix><yellow>Uso: /petadmin remove <jugador> <mascota></yellow>"
+  admin_remove_success: "<prefix><green>Eliminada la mascota <white><pet></white> de <white><player></white>!</green>"
+  admin_setlevel_usage: "<prefix><yellow>Uso: /petadmin setlevel <jugador> <mascota> <nivel></yellow>"
+  invalid_level: "<prefix><red>Nivel especificado no valido.</red>"
+  admin_setlevel_success: "<prefix><green>Nivel de la mascota <white><pet></white> de <white><player></white> fijado a <white><level></white>!</green>"
+  admin_reset_treats_usage: "<prefix><yellow>Uso: /petadmin resetdailytreats <jugador></yellow>"
+  admin_reset_treats_success: "<prefix><green>Restablecido el limite de bocadillos para <white><player></white>!</green>"
